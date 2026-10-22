@@ -4,6 +4,8 @@
 
 Python 3.11+ · One runtime dependency · MIT · No accounts or API keys
 
+[![Checks](https://github.com/nazeeh111/chronal/actions/workflows/checks.yml/badge.svg)](https://github.com/nazeeh111/chronal/actions/workflows/checks.yml)
+
 [Source](https://github.com/nazeeh111/chronal) · [Checks](https://github.com/nazeeh111/chronal/actions/workflows/checks.yml) · [Verification record](docs/VALIDATION.md)
 
 Chronal connects constrained strategy proposals, train-only machine learning, cash-aware simulation, chronological evaluation and standalone reports. Its useful unit is a complete experiment: the data, candidate registry, fitted models, selection decision, fills, costs and evidence all travel together.
