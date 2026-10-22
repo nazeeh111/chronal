@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1070" viewBox="0 0 1600 1070" role="img" aria-labelledby="figure-title figure-desc">
+<title id="figure-title">Chronal synthetic selection study</title>
+<desc id="figure-desc">All12 declared synthetic replications are shown. Each row compares selected candidate excess total return over the fixed baseline on development and holdout. This is synthetic data, not investment performance. No uncertainty bars or significance claims are added.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#566b6c"/></marker></defs>
+<rect width="1600" height="1070" fill="white"/>
+<text x="64" y="47" fill="#237568" font-family="monospace" font-size="15" font-weight="400" text-anchor="start">CHRONAL / FIGURE 03</text>
+<text x="64" y="99" fill="#183335" font-family="Georgia,serif" font-size="39" font-weight="400" text-anchor="start">Selection is not confirmation.</text>
+<text x="64" y="134" fill="#566b6c" font-family="Arial,sans-serif" font-size="20" font-weight="400" text-anchor="start">Synthetic demonstration · all 12 predeclared seeds retained · excess total return in percentage points</text>
+<text x="64" y="194" fill="#566b6c" font-family="Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">SEED / DEVELOPMENT WINNER</text>
+<text x="700" y="194" fill="#183335" font-family="Arial,sans-serif" font-size="19" font-weight="600" text-anchor="middle">DEVELOPMENT</text>
+<path d="M485.0 225V905" stroke="#cad6d5" stroke-width="1"/>
+<text x="485.0" y="943" fill="#566b6c" font-family="Arial,sans-serif" font-size="17" font-weight="400" text-anchor="middle">-35</text>
+<path d="M592.5 225V905" stroke="#cad6d5" stroke-width="1"/>
+<text x="592.5" y="943" fill="#566b6c" font-family="Arial,sans-serif" font-size="17" font-weight="400" text-anchor="middle">-17.5</text>
+<path d="M700.0 225V905" stroke="#566b6c" stroke-width="1.8"/>
+<text x="700.0" y="943" fill="#566b6c" font-family="Arial,sans-serif" font-size="17" font-weight="400" text-anchor="middle">0</text>
+<path d="M807.5 225V905" stroke="#cad6d5" stroke-width="1"/>
+<text x="807.5" y="943" fill="#566b6c" font-family="Arial,sans-serif" font-size="17" font-weight="400" text-anchor="middle">+17.5</text>
+<path d="M915.0 225V905" stroke="#cad6d5" stroke-width="1"/>
+<text x="915.0" y="943" fill="#566b6c" font-family="Arial,sans-serif" font-size="17" font-weight="400" text-anchor="middle">+35</text>
+<text x="1260" y="194" fill="#183335" font-family="Arial,sans-serif" font-size="19" font-weight="600" text-anchor="middle">LATER HOLDOUT</text>
+<path d="M1045.0 225V905" stroke="#cad6d5" stroke-width="1"/>
+<text x="1045.0" y="943" fill="#566b6c" font-family="Arial,sans-serif" font-size="17" font-weight="400" text-anchor="middle">-35</text>
+<path d="M1152.5 225V905" stroke="#cad6d5" stroke-width="1"/>
+<text x="1152.5" y="943" fill="#566b6c" font-family="Arial,sans-serif" font-size="17" font-weight="400" text-anchor="middle">-17.5</text>
+<path d="M1260.0 225V905" stroke="#566b6c" stroke-width="1.8"/>
+<text x="1260.0" y="943" fill="#566b6c" font-family="Arial,sans-serif" font-size="17" font-weight="400" text-anchor="middle">0</text>
+<path d="M1367.5 225V905" stroke="#cad6d5" stroke-width="1"/>
+<text x="1367.5" y="943" fill="#566b6c" font-family="Arial,sans-serif" font-size="17" font-weight="400" text-anchor="middle">+17.5</text>
+<path d="M1475.0 225V905" stroke="#cad6d5" stroke-width="1"/>
+<text x="1475.0" y="943" fill="#566b6c" font-family="Arial,sans-serif" font-size="17" font-weight="400" text-anchor="middle">+35</text>
+<text x="64" y="257" fill="#183335" font-family="monospace" font-size="21" font-weight="400" text-anchor="start">100</text>
+<text x="145" y="257" fill="#183335" font-family="Arial,sans-serif" font-size="21" font-weight="400" text-anchor="start">ridge20</text>
+<path d="M700 250H723.8620614179301" stroke="#237568" stroke-width="9"/>
+<circle cx="723.8620614179301" cy="250" r="6" fill="#237568"/>
+<text x="735.8620614179301" y="257" fill="#183335" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">+3.88</text>
+<path d="M1260 250H1255.3847025070047" stroke="#ac7225" stroke-width="9"/>
+<circle cx="1255.3847025070047" cy="250" r="6" fill="#ac7225"/>
+<text x="1243.3847025070047" y="257" fill="#183335" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="end">-0.75</text>
+<text x="64" y="312" fill="#183335" font-family="monospace" font-size="21" font-weight="400" text-anchor="start">101</text>
+<text x="145" y="312" fill="#183335" font-family="Arial,sans-serif" font-size="21" font-weight="400" text-anchor="start">momentum20</text>
+<path d="M700 305H702.9349606835734" stroke="#237568" stroke-width="9"/>
+<circle cx="702.9349606835734" cy="305" r="6" fill="#237568"/>
+<text x="714.9349606835734" y="312" fill="#183335" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">+0.48</text>
+<path d="M1260 305H1219.4537050944498" stroke="#ac7225" stroke-width="9"/>
+<circle cx="1219.4537050944498" cy="305" r="6" fill="#ac7225"/>
+<text x="1207.4537050944498" y="312" fill="#183335" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="end">-6.60</text>
+<text x="64" y="367" fill="#183335" font-family="monospace" font-size="21" font-weight="400" text-anchor="start">102</text>
+<text x="145" y="367" fill="#183335" font-family="Arial,sans-serif" font-size="21" font-weight="400" text-anchor="start">ridge20</text>
+<path d="M700 360H774.4810311643288" stroke="#237568" stroke-width="9"/>
+<circle cx="774.4810311643288" cy="360" r="6" fill="#237568"/>
+<text x="786.4810311643288" y="367" fill="#183335" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">+12.12</text>
+<path d="M1260 360H1270.959837602525" stroke="#ac7225" stroke-width="9"/>
+<circle cx="1270.959837602525" cy="360" r="6" fill="#ac7225"/>
+<text x="1282.959837602525" y="367" fill="#183335" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">+1.78</text>
+<text x="64" y="422" fill="#183335" font-family="monospace" font-size="21" font-weight="400" text-anchor="start">103</text>
+<text x="145" y="422" fill="#183335" font-family="Arial,sans-serif" font-size="21" font-weight="400" text-anchor="start">momentum20</text>
+<path d="M700 415H818.6882664005338" stroke="#237568" stroke-width="9"/>
+<circle cx="818.6882664005338" cy="415" r="6" fill="#237568"/>
+<text x="830.6882664005338" y="422" fill="#183335" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">+19.32</text>
+<path d="M1260 415H1265.9069472316773" stroke="#ac7225" stroke-width="9"/>
+<circle cx="1265.9069472316773" cy="415" r="6" fill="#ac7225"/>
+<text x="1277.9069472316773" y="422" fill="#183335" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">+0.96</text>
+<text x="64" y="477" fill="#183335" font-family="monospace" font-size="21" font-weight="400" text-anchor="start">104</text>
+<text x="145" y="477" fill="#183335" font-family="Arial,sans-serif" font-size="21" font-weight="400" text-anchor="start">momentum20</text>
+<path d="M700 470H902.9525009783006" stroke="#237568" stroke-width="9"/>
+<circle cx="902.9525009783006" cy="470" r="6" fill="#237568"/>
+<text x="914.9525009783006" y="477" fill="#183335" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">+33.04</text>
+<path d="M1260 470H1257.2827200652803" stroke="#ac7225" stroke-width="9"/>
+<circle cx="1257.2827200652803" cy="470" r="6" fill="#ac7225"/>
+<text x="1245.2827200652803" y="477" fill="#183335" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="end">-0.44</text>
+<text x="64" y="532" fill="#183335" font-family="monospace" font-size="21" font-weight="400" text-anchor="start">105</text>
+<text x="145" y="532" fill="#183335" font-family="Arial,sans-serif" font-size="21" font-weight="400" text-anchor="start">momentum60</text>
+<path d="M700 525H754.6866587359715" stroke="#237568" stroke-width="9"/>
+<circle cx="754.6866587359715" cy="525" r="6" fill="#237568"/>
+<text x="766.6866587359715" y="532" fill="#183335" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">+8.90</text>
+<path d="M1260 525H1219.8283387006552" stroke="#ac7225" stroke-width="9"/>
+<circle cx="1219.8283387006552" cy="525" r="6" fill="#ac7225"/>
+<text x="1207.8283387006552" y="532" fill="#183335" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="end">-6.54</text>
+<text x="64" y="587" fill="#183335" font-family="monospace" font-size="21" font-weight="400" text-anchor="start">106</text>
+<text x="145" y="587" fill="#183335" font-family="Arial,sans-serif" font-size="21" font-weight="400" text-anchor="start">momentum20</text>
+<path d="M700 580H653.6537344981812" stroke="#237568" stroke-width="9"/>
+<circle cx="653.6537344981812" cy="580" r="6" fill="#237568"/>
+<text x="641.6537344981812" y="587" fill="#183335" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="end">-7.54</text>
+<path d="M1260 580H1189.6915245123064" stroke="#ac7225" stroke-width="9"/>
+<circle cx="1189.6915245123064" cy="580" r="6" fill="#ac7225"/>
+<text x="1177.6915245123064" y="587" fill="#183335" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="end">-11.45</text>
+<text x="64" y="642" fill="#183335" font-family="monospace" font-size="21" font-weight="400" text-anchor="start">107</text>
+<text x="145" y="642" fill="#183335" font-family="Arial,sans-serif" font-size="21" font-weight="400" text-anchor="start">trend60</text>
+<path d="M700 635H726.6871871476603" stroke="#237568" stroke-width="9"/>
+<circle cx="726.6871871476603" cy="635" r="6" fill="#237568"/>
+<text x="738.6871871476603" y="642" fill="#183335" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">+4.34</text>
+<path d="M1260 635H1252.1688855422" stroke="#ac7225" stroke-width="9"/>
+<circle cx="1252.1688855422" cy="635" r="6" fill="#ac7225"/>
+<text x="1240.1688855422" y="642" fill="#183335" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="end">-1.27</text>
+<text x="64" y="697" fill="#183335" font-family="monospace" font-size="21" font-weight="400" text-anchor="start">108</text>
+<text x="145" y="697" fill="#183335" font-family="Arial,sans-serif" font-size="21" font-weight="400" text-anchor="start">momentum20</text>
+<path d="M700 690H828.8488395647951" stroke="#237568" stroke-width="9"/>
+<circle cx="828.8488395647951" cy="690" r="6" fill="#237568"/>
+<text x="840.8488395647951" y="697" fill="#183335" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">+20.98</text>
+<path d="M1260 690H1309.4629703932176" stroke="#ac7225" stroke-width="9"/>
+<circle cx="1309.4629703932176" cy="690" r="6" fill="#ac7225"/>
+<text x="1321.4629703932176" y="697" fill="#183335" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">+8.05</text>
+<text x="64" y="752" fill="#183335" font-family="monospace" font-size="21" font-weight="400" text-anchor="start">109</text>
+<text x="145" y="752" fill="#183335" font-family="Arial,sans-serif" font-size="21" font-weight="400" text-anchor="start">momentum60</text>
+<path d="M700 745H774.6105976218695" stroke="#237568" stroke-width="9"/>
+<circle cx="774.6105976218695" cy="745" r="6" fill="#237568"/>
+<text x="786.6105976218695" y="752" fill="#183335" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">+12.15</text>
+<path d="M1260 745H1234.1356849060066" stroke="#ac7225" stroke-width="9"/>
+<circle cx="1234.1356849060066" cy="745" r="6" fill="#ac7225"/>
+<text x="1222.1356849060066" y="752" fill="#183335" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="end">-4.21</text>
+<text x="64" y="807" fill="#183335" font-family="monospace" font-size="21" font-weight="400" text-anchor="start">110</text>
+<text x="145" y="807" fill="#183335" font-family="Arial,sans-serif" font-size="21" font-weight="400" text-anchor="start">ridge20</text>
+<path d="M700 800H819.2124803468863" stroke="#237568" stroke-width="9"/>
+<circle cx="819.2124803468863" cy="800" r="6" fill="#237568"/>
+<text x="831.2124803468863" y="807" fill="#183335" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">+19.41</text>
+<path d="M1260 800H1251.1932002245385" stroke="#ac7225" stroke-width="9"/>
+<circle cx="1251.1932002245385" cy="800" r="6" fill="#ac7225"/>
+<text x="1239.1932002245385" y="807" fill="#183335" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="end">-1.43</text>
+<text x="64" y="862" fill="#183335" font-family="monospace" font-size="21" font-weight="400" text-anchor="start">111</text>
+<text x="145" y="862" fill="#183335" font-family="Arial,sans-serif" font-size="21" font-weight="400" text-anchor="start">momentum20</text>
+<path d="M700 855H801.108243797808" stroke="#237568" stroke-width="9"/>
+<circle cx="801.108243797808" cy="855" r="6" fill="#237568"/>
+<text x="813.108243797808" y="862" fill="#183335" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">+16.46</text>
+<path d="M1260 855H1247.9571013208094" stroke="#ac7225" stroke-width="9"/>
+<circle cx="1247.9571013208094" cy="855" r="6" fill="#ac7225"/>
+<text x="1235.9571013208094" y="862" fill="#183335" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="end">-1.96</text>
+<text x="64" y="1002" fill="#183335" font-family="Arial,sans-serif" font-size="23" font-weight="600" text-anchor="start">3/12 positive holdout excess outcomes. Mean: -1.99 pp. One hand-designed generator; no real-market inference.</text>
+<text x="64" y="1040" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Source: examples/selection-study/results.json. Zero is a genuine reference; shared scales; no dropped seeds or invented error bars.</text>
+</svg>

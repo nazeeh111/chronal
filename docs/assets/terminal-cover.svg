@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+<title id="title">CHRONAL research terminal</title><desc id="desc">Offline investment research with explicit assumptions, trained strategies, cost-aware simulation and complete replay.</desc>
+<rect width="1280" height="360" fill="#080d13"/><path d="M0 60H1280M32 316H1248" stroke="#253345"/>
+<g font-family="monospace"><text x="32" y="38" fill="#e5b661" font-size="20" letter-spacing="4">◷ CHRONAL</text><text x="1248" y="37" text-anchor="end" fill="#5ed9b4" font-size="12">LOCAL / RESEARCH / NO LIVE ORDERS</text>
+<text x="32" y="103" fill="#8a9bb0" font-size="12" letter-spacing="2">A PORTFOLIO IS A HYPOTHESIS.</text>
+<text x="28" y="164" fill="#d5dfea" font-size="46" letter-spacing="-2">Evidence before exposure.</text>
+<text x="32" y="204" fill="#8a9bb0" font-size="16">Fit earlier. Account for costs. Freeze the test. Replay everything.</text>
+<rect x="32" y="240" width="660" height="46" fill="#0e1621" stroke="#253345"/><text x="48" y="268" fill="#e5b661" font-size="14">CHRONAL &gt;</text><text x="150" y="268" fill="#d5dfea" font-size="14">strategy ridge20</text>
+<text x="32" y="342" fill="#8a9bb0" font-size="12">PYTHON 3.11+  /  NUMPY  /  MIT  /  COMPLETE LOCAL EXPERIMENTS</text>
+<rect x="800" y="89" width="448" height="197" fill="#0e1621" stroke="#253345"/><text x="820" y="119" fill="#e5b661" font-size="12">RESEARCH CONTRACT</text><path d="M820 136H1228M820 180H1228M820 224H1228" stroke="#253345"/>
+<g fill="#5ed9b4" font-size="12"><text x="820" y="163">01</text><text x="820" y="207">02</text><text x="820" y="251">03</text></g><g fill="#d5dfea" font-size="12"><text x="858" y="163">Available data + training-only fits</text><text x="858" y="207">Cash + costs + causal execution</text><text x="858" y="251">Frozen selection + separate holdout</text></g></g></svg>

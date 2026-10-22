@@ -1,0 +1,263 @@
+{
+  "observations": [
+    {
+      "data_fingerprint": "ce9c11ae547aa8cded47f720e14f5acbbe6b7d7fcba4fddffe152ced633e938d",
+      "delayed_development_return": 0.11525589194044361,
+      "development_excess_total_return": 0.03884521626174675,
+      "development_return": 0.17713158982855415,
+      "double_cost_development_return": 0.13829266849420985,
+      "holdout_baseline_return": 0.06293605363106813,
+      "holdout_excess_total_return": -0.007513274988597107,
+      "holdout_max_drawdown": -0.058140626729948575,
+      "holdout_return": 0.05542277864247103,
+      "seed": 100,
+      "selected": "ridge20"
+    },
+    {
+      "data_fingerprint": "64faf7e9dd52ebda04b6f52849ff23f912fae3ca4768251fd2d3bc9e172f2cb5",
+      "delayed_development_return": -0.15291874698078345,
+      "development_excess_total_return": 0.0047778429732590055,
+      "development_return": -0.1852623487553391,
+      "double_cost_development_return": -0.20441358397029208,
+      "holdout_baseline_return": 0.06874757403833476,
+      "holdout_excess_total_return": -0.06600559635787251,
+      "holdout_max_drawdown": -0.08152982625302485,
+      "holdout_return": 0.0027419776804622487,
+      "seed": 101,
+      "selected": "momentum20"
+    },
+    {
+      "data_fingerprint": "ec126267792988c8a80f76f3070ea3b70002d3db3a7b697e73dda2b508d26df3",
+      "delayed_development_return": 0.14220062183354165,
+      "development_excess_total_return": 0.12124819026751199,
+      "development_return": 0.15180242868670812,
+      "double_cost_development_return": 0.10406088343478181,
+      "holdout_baseline_return": 0.009276918657311839,
+      "holdout_excess_total_return": 0.01784159609713387,
+      "holdout_max_drawdown": -0.09526055252045906,
+      "holdout_return": 0.02711851475444571,
+      "seed": 102,
+      "selected": "ridge20"
+    },
+    {
+      "data_fingerprint": "27d54027078076aaf49663a31adbcd50f7ae9556238a530ce0a52265b998a74c",
+      "delayed_development_return": 0.09970292657903412,
+      "development_excess_total_return": 0.1932134569311017,
+      "development_return": 0.1186534492927227,
+      "double_cost_development_return": 0.09900351317197353,
+      "holdout_baseline_return": 0.1357886516516238,
+      "holdout_excess_total_return": 0.009615960609707264,
+      "holdout_max_drawdown": -0.053473862883710255,
+      "holdout_return": 0.14540461226133106,
+      "seed": 103,
+      "selected": "momentum20"
+    },
+    {
+      "data_fingerprint": "20e3a3194e0ba02f29d8581177c76f756412a0203f2e42136722f92e342a91f0",
+      "delayed_development_return": 0.17942107978589217,
+      "development_excess_total_return": 0.3303877922902567,
+      "development_return": 0.18759797635746733,
+      "double_cost_development_return": 0.15912853997187404,
+      "holdout_baseline_return": 0.031260946711574755,
+      "holdout_excess_total_return": -0.004423478963497374,
+      "holdout_max_drawdown": -0.0523113883370101,
+      "holdout_return": 0.02683746774807738,
+      "seed": 104,
+      "selected": "momentum20"
+    },
+    {
+      "data_fingerprint": "c9f6d19cede8c07e08f03c4580fc0e95e0f985e90e82cfa16cef5e4fed751514",
+      "delayed_development_return": 0.2873318450310631,
+      "development_excess_total_return": 0.08902479329111634,
+      "development_return": 0.28904071219167227,
+      "double_cost_development_return": 0.2751031000558679,
+      "holdout_baseline_return": 0.17110240987903325,
+      "holdout_excess_total_return": -0.06539572769660773,
+      "holdout_max_drawdown": -0.06735535212488397,
+      "holdout_return": 0.10570668218242552,
+      "seed": 105,
+      "selected": "momentum60"
+    },
+    {
+      "data_fingerprint": "c8628575d532bc83bc738eb2b423a189c098e4078284fe90e7a14480d924c55f",
+      "delayed_development_return": 0.005210197636058789,
+      "development_excess_total_return": -0.07544740895644919,
+      "development_return": 0.00489501524541458,
+      "double_cost_development_return": -0.024303884687457145,
+      "holdout_baseline_return": -0.028954933551981865,
+      "holdout_excess_total_return": -0.11445565777066402,
+      "holdout_max_drawdown": -0.17239493589986188,
+      "holdout_return": -0.1434105913226459,
+      "seed": 106,
+      "selected": "momentum20"
+    },
+    {
+      "data_fingerprint": "70f9372ed2db489bed3b5b56a72222510576dc0493355f994cd8e7149f45d15b",
+      "delayed_development_return": -0.08533925444039414,
+      "development_excess_total_return": 0.043444258147353976,
+      "development_return": -0.06715410287626566,
+      "double_cost_development_return": -0.07843340317976666,
+      "holdout_baseline_return": 0.04171419924315156,
+      "holdout_excess_total_return": -0.012748325861534626,
+      "holdout_max_drawdown": -0.0625154531126283,
+      "holdout_return": 0.028965873381616936,
+      "seed": 107,
+      "selected": "trend60"
+    },
+    {
+      "data_fingerprint": "ad1392f98fd93165c32aa8d099988c1c0f36575a742e28cda57d0bf85660d31a",
+      "delayed_development_return": 0.01163678168320681,
+      "development_excess_total_return": 0.20975392487292233,
+      "development_return": 0.029202317703567626,
+      "double_cost_development_return": 0.004713641299806115,
+      "holdout_baseline_return": -0.05807755471726517,
+      "holdout_excess_total_return": 0.08052111459361,
+      "holdout_max_drawdown": -0.037045195625361016,
+      "holdout_return": 0.022443559876344832,
+      "seed": 108,
+      "selected": "momentum20"
+    },
+    {
+      "data_fingerprint": "4f540182e48bb7f0576e4219626e17a9590dac94383b0a216d90812df856f6e4",
+      "delayed_development_return": 0.11336689672406686,
+      "development_excess_total_return": 0.12145911240769458,
+      "development_return": 0.10751368978744291,
+      "double_cost_development_return": 0.0930123978677444,
+      "holdout_baseline_return": 0.13340880457896942,
+      "holdout_excess_total_return": -0.042104698990221845,
+      "holdout_max_drawdown": -0.039155635104455966,
+      "holdout_return": 0.09130410558874757,
+      "seed": 109,
+      "selected": "momentum60"
+    },
+    {
+      "data_fingerprint": "21128165cf53c6d886eb510b4b2c17d2014c4329cb65bf7778ca692e27c36745",
+      "delayed_development_return": -0.007317526348648795,
+      "development_excess_total_return": 0.19406682847167533,
+      "development_return": -0.04488288028872256,
+      "double_cost_development_return": -0.07525694181802212,
+      "holdout_baseline_return": 0.05579390538635076,
+      "holdout_excess_total_return": -0.014336650797263095,
+      "holdout_max_drawdown": -0.025499002441461527,
+      "holdout_return": 0.041457254589087666,
+      "seed": 110,
+      "selected": "ridge20"
+    },
+    {
+      "data_fingerprint": "b0ef45528c00af67bbfe5bdd5faa40778b37eb043dc6f69b01dc10f5ef05165a",
+      "delayed_development_return": 0.2584959081686815,
+      "development_excess_total_return": 0.1645948154848036,
+      "development_return": 0.2227941273556835,
+      "double_cost_development_return": 0.1987342878670264,
+      "holdout_baseline_return": -0.046384518264917185,
+      "holdout_excess_total_return": -0.019604718780077524,
+      "holdout_max_drawdown": -0.15269500482285314,
+      "holdout_return": -0.06598923704499471,
+      "seed": 111,
+      "selected": "momentum20"
+    }
+  ],
+  "registration": {
+    "candidates": [
+      {
+        "kind": "equal_weight",
+        "lookback": 20,
+        "max_weight": 0.5,
+        "name": "equal",
+        "rebalance_every": 5,
+        "ridge_alpha": 10.0,
+        "target_vol": 0.12,
+        "top_k": 100
+      },
+      {
+        "kind": "momentum",
+        "lookback": 20,
+        "max_weight": 0.5,
+        "name": "momentum20",
+        "rebalance_every": 5,
+        "ridge_alpha": 10.0,
+        "target_vol": 0.12,
+        "top_k": 2
+      },
+      {
+        "kind": "momentum",
+        "lookback": 60,
+        "max_weight": 0.5,
+        "name": "momentum60",
+        "rebalance_every": 5,
+        "ridge_alpha": 10.0,
+        "target_vol": 0.12,
+        "top_k": 2
+      },
+      {
+        "kind": "trend",
+        "lookback": 60,
+        "max_weight": 0.5,
+        "name": "trend60",
+        "rebalance_every": 5,
+        "ridge_alpha": 10.0,
+        "target_vol": 0.12,
+        "top_k": 100
+      },
+      {
+        "kind": "ridge",
+        "lookback": 20,
+        "max_weight": 0.5,
+        "name": "ridge20",
+        "rebalance_every": 5,
+        "ridge_alpha": 10.0,
+        "target_vol": 0.12,
+        "top_k": 2
+      }
+    ],
+    "code_sha256": "9723bcd2bb63e53f128dad670f4e8d5972bef9a92634cf52b27476f455c800d7",
+    "environment": {
+      "numpy": "2.5.4",
+      "python": "3.14.7"
+    },
+    "execution": {
+      "commission_bps": 5.0,
+      "delay_sessions": 0,
+      "drawdown_stop": 0.25,
+      "initial_cash": 100000.0,
+      "max_participation": 0.01,
+      "slippage_bps": 3.0,
+      "spread_bps": 4.0
+    },
+    "hypothesis_status": "prospective engineering demonstration; not an alpha or novelty claim",
+    "limitations": "Not real markets. Replications share one hand-designed generator. No external timestamp or search-history enforcement.",
+    "primary_observation": "selected minus baseline total return on holdout; descriptive across fixed synthetic generator seeds",
+    "question": "How does the development-selected candidate compare with a fixed baseline on unseen synthetic sessions?",
+    "research": {
+      "gap": 2,
+      "holdout_size": 126,
+      "seed": 17,
+      "test_size": 63,
+      "train_size": 252
+    },
+    "seeds": [
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111
+    ],
+    "sessions": 756
+  },
+  "summary": {
+    "interpretation": "Descriptive simulation outcomes, not statistical proof of an investable edge.",
+    "maximum_holdout_excess_total_return": 0.08052111459361,
+    "mean_holdout_excess_total_return": -0.019884121575490393,
+    "minimum_holdout_excess_total_return": -0.11445565777066402,
+    "positive_holdout_excess_count": 3,
+    "replications": 12,
+    "sd_holdout_excess_total_return": 0.04906819346905844
+  }
+}

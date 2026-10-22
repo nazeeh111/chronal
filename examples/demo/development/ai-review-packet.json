@@ -1,0 +1,217 @@
+{
+  "allowed_kinds": [
+    "equal_weight",
+    "momentum",
+    "trend",
+    "ridge"
+  ],
+  "candidate_metrics": {
+    "equal": {
+      "annual_volatility": 0.13911421308143013,
+      "cagr": -0.07241515535725829,
+      "fees": 348.41269234286125,
+      "historical_cvar_95": -0.020592839344755975,
+      "max_drawdown": -0.23142758638658556,
+      "sessions": 376,
+      "sharpe_zero_rf": -0.4706836611565217,
+      "total_return": -0.10609870898334217,
+      "traded_notional": 696825.3846857233,
+      "turnover_per_session": 0.018532590018237323
+    },
+    "momentum20": {
+      "annual_volatility": 0.11031246487544695,
+      "cagr": -0.04343119894006264,
+      "fees": 1547.1459124139838,
+      "historical_cvar_95": -0.016654127577282362,
+      "max_drawdown": -0.13848874582282367,
+      "sessions": 376,
+      "sharpe_zero_rf": -0.34743691849129016,
+      "total_return": -0.06410448940756452,
+      "traded_notional": 3094291.824827969,
+      "turnover_per_session": 0.0822949953411694
+    },
+    "momentum60": {
+      "annual_volatility": 0.09754382843347462,
+      "cagr": -0.025759507640568335,
+      "fees": 827.0368484497444,
+      "historical_cvar_95": -0.015780576747138907,
+      "max_drawdown": -0.10740290597723012,
+      "sessions": 376,
+      "sharpe_zero_rf": -0.21884753264440066,
+      "total_return": -0.038190161395334266,
+      "traded_notional": 1654073.6968994886,
+      "turnover_per_session": 0.04399132172605023
+    },
+    "ridge20": {
+      "annual_volatility": 0.12504608113943777,
+      "cagr": -0.11645680984072504,
+      "fees": 2453.4217230720246,
+      "historical_cvar_95": -0.018488294950810048,
+      "max_drawdown": -0.24389623269791694,
+      "sessions": 376,
+      "sharpe_zero_rf": -0.9273438130732113,
+      "total_return": -0.16867959689413647,
+      "traded_notional": 4906843.446144042,
+      "turnover_per_session": 0.1305011554825543
+    },
+    "trend60": {
+      "annual_volatility": 0.10093163386507828,
+      "cagr": 0.011861834064090582,
+      "fees": 686.0988568528251,
+      "historical_cvar_95": -0.016789686759010304,
+      "max_drawdown": -0.0937821217560183,
+      "sessions": 376,
+      "sharpe_zero_rf": 0.167248125798142,
+      "total_return": 0.01775015768807542,
+      "traded_notional": 1372197.7137056496,
+      "turnover_per_session": 0.036494620045363024
+    }
+  },
+  "candidate_specs": [
+    {
+      "kind": "equal_weight",
+      "lookback": 20,
+      "max_weight": 0.5,
+      "name": "equal",
+      "rebalance_every": 5,
+      "ridge_alpha": 10.0,
+      "target_vol": 0.12,
+      "top_k": 100
+    },
+    {
+      "kind": "momentum",
+      "lookback": 20,
+      "max_weight": 0.5,
+      "name": "momentum20",
+      "rebalance_every": 5,
+      "ridge_alpha": 10.0,
+      "target_vol": 0.12,
+      "top_k": 2
+    },
+    {
+      "kind": "momentum",
+      "lookback": 60,
+      "max_weight": 0.5,
+      "name": "momentum60",
+      "rebalance_every": 5,
+      "ridge_alpha": 10.0,
+      "target_vol": 0.12,
+      "top_k": 2
+    },
+    {
+      "kind": "trend",
+      "lookback": 60,
+      "max_weight": 0.5,
+      "name": "trend60",
+      "rebalance_every": 5,
+      "ridge_alpha": 10.0,
+      "target_vol": 0.12,
+      "top_k": 100
+    },
+    {
+      "kind": "ridge",
+      "lookback": 20,
+      "max_weight": 0.5,
+      "name": "ridge20",
+      "rebalance_every": 5,
+      "ridge_alpha": 10.0,
+      "target_vol": 0.12,
+      "top_k": 2
+    }
+  ],
+  "conditional_uncertainty": {
+    "block_sessions": 10,
+    "estimate": 0.0003268230703561692,
+    "lower_95": -0.0002513861073006811,
+    "method": "paired circular moving-block bootstrap; fixed paths; descriptive only",
+    "metric": "mean_daily_excess_return",
+    "resamples": 500,
+    "seed": 17,
+    "selection_adjusted": false,
+    "upper_95": 0.000895463345634523
+  },
+  "data_metadata": {
+    "availability": "all complete bars available at their recorded close",
+    "calendar": "weekday-only UTC sessions; no real exchange holiday calendar",
+    "prices": "unadjusted synthetic prices; no corporate actions or dividends",
+    "seed": "17",
+    "source": "Chronal deterministic synthetic fixture",
+    "synthetic": "true",
+    "universe": "fixed fictional assets; no membership selection or survivorship claim"
+  },
+  "development_range": [
+    "2018-12-24T21:00:00.000000",
+    "2020-06-01T21:00:00.000000"
+  ],
+  "fields": {
+    "kind": "momentum",
+    "lookback": 20,
+    "max_weight": 0.5,
+    "name": "example",
+    "rebalance_every": 5,
+    "ridge_alpha": 10.0,
+    "target_vol": 0.12,
+    "top_k": 2
+  },
+  "instructions": [
+    "Do not claim historical predictive skill from this synthetic demonstration.",
+    "Consider cash, risk, turnover, selection bias and the equal baseline.",
+    "Do not request credentials, call paid APIs or generate executable strategy code.",
+    "Return a JSON list of StrategySpec objects. Hypotheses need a fresh chronological test.",
+    "Holdout observations and holdout results are excluded from this packet."
+  ],
+  "plan_sha256": "7a5f3e86f4b1b64882a2e90a3a784525160be39fe57fc473cf8ce98464318190",
+  "provenance_note": "Record the model, date, prompt and unedited response alongside a new candidate file.",
+  "purpose": "Critique development evidence and propose bounded hypotheses for a NEW plan.",
+  "selected_candidate": "trend60",
+  "stress": {
+    "double_cost": {
+      "execution": {
+        "commission_bps": 10.0,
+        "delay_sessions": 0,
+        "drawdown_stop": 0.25,
+        "initial_cash": 100000.0,
+        "max_participation": 0.01,
+        "slippage_bps": 6.0,
+        "spread_bps": 8.0
+      },
+      "metrics": {
+        "annual_volatility": 0.10126315172855169,
+        "cagr": 0.0029071524337287435,
+        "fees": 1363.7992712922678,
+        "historical_cvar_95": -0.016874822325742358,
+        "max_drawdown": -0.09918993682586563,
+        "sessions": 376,
+        "sharpe_zero_rf": 0.0792503583715524,
+        "total_return": 0.004340757003016282,
+        "traded_notional": 1363799.2712922683,
+        "turnover_per_session": 0.036271257215219906
+      },
+      "status": "complete"
+    },
+    "one_session_delay": {
+      "execution": {
+        "commission_bps": 5.0,
+        "delay_sessions": 1,
+        "drawdown_stop": 0.25,
+        "initial_cash": 100000.0,
+        "max_participation": 0.01,
+        "slippage_bps": 3.0,
+        "spread_bps": 4.0
+      },
+      "metrics": {
+        "annual_volatility": 0.09949540342802918,
+        "cagr": 0.019704477461718328,
+        "fees": 696.7047038109182,
+        "historical_cvar_95": -0.016159427429796324,
+        "max_drawdown": -0.08031149492469203,
+        "sessions": 376,
+        "sharpe_zero_rf": 0.24580108584500518,
+        "total_return": 0.029542390097121896,
+        "traded_notional": 1393409.4076218354,
+        "turnover_per_session": 0.03705876084100626
+      },
+      "status": "complete"
+    }
+  }
+}

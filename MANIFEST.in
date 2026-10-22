@@ -1,0 +1,6 @@
+include LICENSE NOTICE.md README.md CONTRIBUTING.md SECURITY.md
+recursive-include docs *.md *.svg *.json *.png
+recursive-include examples *.json *.csv *.html
+recursive-include .github *.yml
+recursive-include tools *.py *.cjs
+global-exclude __pycache__ *.py[cod] .DS_Store

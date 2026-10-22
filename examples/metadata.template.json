@@ -1,0 +1,10 @@
+{
+  "origin": "user-supplied",
+  "source": "Replace with provider, source URL and acquisition method",
+  "retrieved_at": "Replace with actual UTC acquisition timestamp",
+  "price_basis": "Unadjusted prices; no corporate actions or dividends modeled",
+  "universe": "Fixed declared universe; describe selection and survivorship limitations",
+  "availability": "Describe evidence supporting available_at; do not invent historical timestamps",
+  "calendar": "Explicit synchronized session timestamps; describe exchange, holidays and timezone conversion",
+  "license": "Replace with actual data usage and redistribution terms"
+}

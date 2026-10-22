@@ -1,0 +1,135 @@
+[
+  {
+    "repo": "Fincept-Corporation/FinceptTerminal",
+    "sha": "3d8617cae3f13c93874d4bee4fb0f2846e9c83bc",
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/Fincept-Corporation/FinceptTerminal/3d8617cae3f13c93874d4bee4fb0f2846e9c83bc/LICENSE",
+    "sha256": "78daf20f76a2463ef36cac315302e04b9aae29f228a7abfe6ecd8d1c7661f45f"
+  },
+  {
+    "repo": "Fincept-Corporation/FinceptTerminal",
+    "sha": "3d8617cae3f13c93874d4bee4fb0f2846e9c83bc",
+    "path": "fincept-qt/src/ui/command/CommandParser.cpp",
+    "url": "https://raw.githubusercontent.com/Fincept-Corporation/FinceptTerminal/3d8617cae3f13c93874d4bee4fb0f2846e9c83bc/fincept-qt/src/ui/command/CommandParser.cpp",
+    "sha256": "04f35624b122e533594b307c161252c678439eb3b5d69bafab81e31143021aa4"
+  },
+  {
+    "repo": "Fincept-Corporation/FinceptTerminal",
+    "sha": "3d8617cae3f13c93874d4bee4fb0f2846e9c83bc",
+    "path": "fincept-qt/src/ui/command/CommandPalette.cpp",
+    "url": "https://raw.githubusercontent.com/Fincept-Corporation/FinceptTerminal/3d8617cae3f13c93874d4bee4fb0f2846e9c83bc/fincept-qt/src/ui/command/CommandPalette.cpp",
+    "sha256": "7d4da141de36a40d9a2704f0cffc5efd0fed27af2214ef23efebc7eeaf9809f4"
+  },
+  {
+    "repo": "Fincept-Corporation/FinceptTerminal",
+    "sha": "3d8617cae3f13c93874d4bee4fb0f2846e9c83bc",
+    "path": "fincept-qt/src/core/actions/ActionRegistry.cpp",
+    "url": "https://raw.githubusercontent.com/Fincept-Corporation/FinceptTerminal/3d8617cae3f13c93874d4bee4fb0f2846e9c83bc/fincept-qt/src/core/actions/ActionRegistry.cpp",
+    "sha256": "7da11b54279a9fffdb6c8b17d50b2df145dc67b775f42945296686ec3f43fec9"
+  },
+  {
+    "repo": "OpenBB-finance/backends-for-openbb",
+    "sha": "a6293707576e16edda8305adda95b07b6a4b968b",
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/OpenBB-finance/backends-for-openbb/a6293707576e16edda8305adda95b07b6a4b968b/LICENSE",
+    "sha256": "ba781842bfbca5168028136e38f1c724d1ae005385ba39a01041e0f75652eec9"
+  },
+  {
+    "repo": "OpenBB-finance/backends-for-openbb",
+    "sha": "a6293707576e16edda8305adda95b07b6a4b968b",
+    "path": "widget-examples/parameters-types/grouping_widgets/widgets.json",
+    "url": "https://raw.githubusercontent.com/OpenBB-finance/backends-for-openbb/a6293707576e16edda8305adda95b07b6a4b968b/widget-examples/parameters-types/grouping_widgets/widgets.json",
+    "sha256": "05ea9dede35c74c870913b18b838da5aebd59690554fda39d3590f148fcc0952"
+  },
+  {
+    "repo": "OpenBB-finance/backends-for-openbb",
+    "sha": "a6293707576e16edda8305adda95b07b6a4b968b",
+    "path": "widget-examples/parameters-types/grouping_widgets/main.py",
+    "url": "https://raw.githubusercontent.com/OpenBB-finance/backends-for-openbb/a6293707576e16edda8305adda95b07b6a4b968b/widget-examples/parameters-types/grouping_widgets/main.py",
+    "sha256": "2cc5f772a6b2571c130f5cd75047bbbaeda7e46a42197f8e35c0aed9a45f017c"
+  },
+  {
+    "repo": "skfolio/skfolio",
+    "sha": "392765783de4cbfb99a9e0a6aab6cd0371174070",
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/skfolio/skfolio/392765783de4cbfb99a9e0a6aab6cd0371174070/LICENSE",
+    "sha256": "07b8dfceb7b319e5145e7b1594d2cdaf94d924d78166d28951d4b360a4dc5844"
+  },
+  {
+    "repo": "skfolio/skfolio",
+    "sha": "392765783de4cbfb99a9e0a6aab6cd0371174070",
+    "path": "src/skfolio/model_selection/_walk_forward.py",
+    "url": "https://raw.githubusercontent.com/skfolio/skfolio/392765783de4cbfb99a9e0a6aab6cd0371174070/src/skfolio/model_selection/_walk_forward.py",
+    "sha256": "23f8e3e0f576895d3ad37ff69faee01b150401263d168561ca69db2637b82414"
+  },
+  {
+    "repo": "skfolio/skfolio",
+    "sha": "392765783de4cbfb99a9e0a6aab6cd0371174070",
+    "path": "src/skfolio/measures/_measures.py",
+    "url": "https://raw.githubusercontent.com/skfolio/skfolio/392765783de4cbfb99a9e0a6aab6cd0371174070/src/skfolio/measures/_measures.py",
+    "sha256": "9fa8f2b6d1fd2a63c1a4abbc938b3995fec44aa3970020d668bc510a034be54d"
+  },
+  {
+    "repo": "microsoft/RD-Agent",
+    "sha": "484776c211e4fbbeef03e0ec00d6bbee7362a4f4",
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/microsoft/RD-Agent/484776c211e4fbbeef03e0ec00d6bbee7362a4f4/LICENSE",
+    "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+  },
+  {
+    "repo": "microsoft/RD-Agent",
+    "sha": "484776c211e4fbbeef03e0ec00d6bbee7362a4f4",
+    "path": "rdagent/scenarios/qlib/developer/factor_runner.py",
+    "url": "https://raw.githubusercontent.com/microsoft/RD-Agent/484776c211e4fbbeef03e0ec00d6bbee7362a4f4/rdagent/scenarios/qlib/developer/factor_runner.py",
+    "sha256": "d2c5864c27332b45a4eda6ad06e1706a84bfc9b3482b7ca45b34290615584988"
+  },
+  {
+    "repo": "microsoft/RD-Agent",
+    "sha": "484776c211e4fbbeef03e0ec00d6bbee7362a4f4",
+    "path": "rdagent/scenarios/qlib/developer/model_runner.py",
+    "url": "https://raw.githubusercontent.com/microsoft/RD-Agent/484776c211e4fbbeef03e0ec00d6bbee7362a4f4/rdagent/scenarios/qlib/developer/model_runner.py",
+    "sha256": "b67b5f1ad4c863b3b85d1a162d51559315578d1db43ec17d118041f593af4316"
+  },
+  {
+    "repo": "hummingbot/hummingbot",
+    "sha": "9af100d6822da7d2d0291a906c730ef172284ee2",
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/hummingbot/hummingbot/9af100d6822da7d2d0291a906c730ef172284ee2/LICENSE",
+    "sha256": "f0dd03c14db3dfbce03c166645f88fda96599ad1a5d217fddb49134de8c72a29"
+  },
+  {
+    "repo": "hummingbot/hummingbot",
+    "sha": "9af100d6822da7d2d0291a906c730ef172284ee2",
+    "path": "hummingbot/strategy_v2/backtesting/backtesting_engine_base.py",
+    "url": "https://raw.githubusercontent.com/hummingbot/hummingbot/9af100d6822da7d2d0291a906c730ef172284ee2/hummingbot/strategy_v2/backtesting/backtesting_engine_base.py",
+    "sha256": "850265b79f666c0df3e66ed4677b7156d81c413813b4559c8b526260abcfa308"
+  },
+  {
+    "repo": "hummingbot/hummingbot",
+    "sha": "9af100d6822da7d2d0291a906c730ef172284ee2",
+    "path": "hummingbot/connector/client_order_tracker.py",
+    "url": "https://raw.githubusercontent.com/hummingbot/hummingbot/9af100d6822da7d2d0291a906c730ef172284ee2/hummingbot/connector/client_order_tracker.py",
+    "sha256": "555c82d35f965e930302fe711369d6327bad34588cb4f89313024eee1ef5c6d7"
+  },
+  {
+    "repo": "unicodef1wn/grokbot-field-notes",
+    "sha": "02780c04ef5f412b28573bce6f82afd15d195d1f",
+    "path": "AGENTS.md",
+    "url": "https://raw.githubusercontent.com/unicodef1wn/grokbot-field-notes/02780c04ef5f412b28573bce6f82afd15d195d1f/AGENTS.md",
+    "sha256": "b8ddc03a21cc4cf7719afa4e8b4c0a609b20cca6adee296a9b0481da67e3a104"
+  },
+  {
+    "repo": "unicodef1wn/grokbot-field-notes",
+    "sha": "02780c04ef5f412b28573bce6f82afd15d195d1f",
+    "path": "ANTIPATTERNS.md",
+    "url": "https://raw.githubusercontent.com/unicodef1wn/grokbot-field-notes/02780c04ef5f412b28573bce6f82afd15d195d1f/ANTIPATTERNS.md",
+    "sha256": "735cc76ac8c3193165046554907c61b8618c22a99d3179ad70e2d24dbcafe360"
+  },
+  {
+    "repo": "unicodef1wn/grokbot-field-notes",
+    "sha": "02780c04ef5f412b28573bce6f82afd15d195d1f",
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/unicodef1wn/grokbot-field-notes/02780c04ef5f412b28573bce6f82afd15d195d1f/LICENSE",
+    "sha256": "6bcae3deaf14a0463ef03036f3cb4f2f79d5712b5999d1e030aacc5a2a93df32"
+  }
+]

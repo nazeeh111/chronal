@@ -1,0 +1,96 @@
+{
+  "scope": "Static source inspection, no upstream execution or copied implementation",
+  "files": [
+    {
+      "repo": "kernc/backtesting.py",
+      "commit": "ca2e2611621e472542ba90f7243a1fa06a7d7108",
+      "path": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/kernc/backtesting.py/ca2e2611621e472542ba90f7243a1fa06a7d7108/LICENSE.md",
+      "sha256": "ad858d53cae05eed9531ecd4c467440803acffe34c69de7b88e03affc5b6a1bd"
+    },
+    {
+      "repo": "kernc/backtesting.py",
+      "commit": "ca2e2611621e472542ba90f7243a1fa06a7d7108",
+      "path": "backtesting/backtesting.py",
+      "url": "https://raw.githubusercontent.com/kernc/backtesting.py/ca2e2611621e472542ba90f7243a1fa06a7d7108/backtesting/backtesting.py",
+      "sha256": "30d8b5ed9c69e4891bd41fe6fa157dcdd9915c2aff279056c8975b0918178852"
+    },
+    {
+      "repo": "kernc/backtesting.py",
+      "commit": "ca2e2611621e472542ba90f7243a1fa06a7d7108",
+      "path": "backtesting/test/_test.py",
+      "url": "https://raw.githubusercontent.com/kernc/backtesting.py/ca2e2611621e472542ba90f7243a1fa06a7d7108/backtesting/test/_test.py",
+      "sha256": "5291f673cd9fc162c2dd29e6b994e8ff53ba571a2372791ce8ff0dbb8698a9fa"
+    },
+    {
+      "repo": "mementum/backtrader",
+      "commit": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/mementum/backtrader/b853d7c90b6721476eb5a5ea3135224e33db1f14/LICENSE",
+      "sha256": "e1c0ad728983d8a57335e52cf1064f1affd1d454173d8cebd3ed8b4a72b48704"
+    },
+    {
+      "repo": "mementum/backtrader",
+      "commit": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+      "path": "backtrader/order.py",
+      "url": "https://raw.githubusercontent.com/mementum/backtrader/b853d7c90b6721476eb5a5ea3135224e33db1f14/backtrader/order.py",
+      "sha256": "b1a8827de9c40d25e932bc64455279a09b8b6389b681a019310dee68e64fff5d"
+    },
+    {
+      "repo": "mementum/backtrader",
+      "commit": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+      "path": "backtrader/brokers/bbroker.py",
+      "url": "https://raw.githubusercontent.com/mementum/backtrader/b853d7c90b6721476eb5a5ea3135224e33db1f14/backtrader/brokers/bbroker.py",
+      "sha256": "0fd397a72814f0de31fcd318b4a1da2030412ae9bea426c0d5dcdd001a52965e"
+    },
+    {
+      "repo": "mementum/backtrader",
+      "commit": "b853d7c90b6721476eb5a5ea3135224e33db1f14",
+      "path": "tests/test_order.py",
+      "url": "https://raw.githubusercontent.com/mementum/backtrader/b853d7c90b6721476eb5a5ea3135224e33db1f14/tests/test_order.py",
+      "sha256": "2cfefa2d05e44950c2fabb035671ba0d59b23c1f970da8916750ca3ccaf6dbb8"
+    },
+    {
+      "repo": "jpmorganchase/abides-jpmc-public",
+      "commit": "f9cbe51342b7dedd9587e4e069040d68a5c6477f",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/jpmorganchase/abides-jpmc-public/f9cbe51342b7dedd9587e4e069040d68a5c6477f/LICENSE",
+      "sha256": "eb7436304f90842b81820fe1bff61e4cfba74584021797bd2273680b8c15e8f9"
+    },
+    {
+      "repo": "jpmorganchase/abides-jpmc-public",
+      "commit": "f9cbe51342b7dedd9587e4e069040d68a5c6477f",
+      "path": "LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/jpmorganchase/abides-jpmc-public/f9cbe51342b7dedd9587e4e069040d68a5c6477f/LICENSE.txt",
+      "sha256": "9c59cf2e0fa99d36263cfdbd6c4417586abe09c4ef358a3119f66bfb90686de9"
+    },
+    {
+      "repo": "jpmorganchase/abides-jpmc-public",
+      "commit": "f9cbe51342b7dedd9587e4e069040d68a5c6477f",
+      "path": "abides-markets/abides_markets/order_book.py",
+      "url": "https://raw.githubusercontent.com/jpmorganchase/abides-jpmc-public/f9cbe51342b7dedd9587e4e069040d68a5c6477f/abides-markets/abides_markets/order_book.py",
+      "sha256": "ba87affe538e74c79e7b25d6f16e10383660521abdee2d059c3eb40718538c10"
+    },
+    {
+      "repo": "jpmorganchase/abides-jpmc-public",
+      "commit": "f9cbe51342b7dedd9587e4e069040d68a5c6477f",
+      "path": "abides-markets/tests/orderbook/test_orderbook.py",
+      "url": "https://raw.githubusercontent.com/jpmorganchase/abides-jpmc-public/f9cbe51342b7dedd9587e4e069040d68a5c6477f/abides-markets/tests/orderbook/test_orderbook.py",
+      "sha256": "c26b814141fe52d4daf4c5865d48bb465646579a29e83459a7a50b1fb6d772e5"
+    },
+    {
+      "repo": "jpmorganchase/abides-jpmc-public",
+      "commit": "f9cbe51342b7dedd9587e4e069040d68a5c6477f",
+      "path": "abides-markets/tests/orderbook/test_limit_orders.py",
+      "url": "https://raw.githubusercontent.com/jpmorganchase/abides-jpmc-public/f9cbe51342b7dedd9587e4e069040d68a5c6477f/abides-markets/tests/orderbook/test_limit_orders.py",
+      "sha256": "7d5898d36218403d997605bf5bf9c83820f52f2ab5644e136e6f951d3dcc05cf"
+    },
+    {
+      "repo": "jpmorganchase/abides-jpmc-public",
+      "commit": "f9cbe51342b7dedd9587e4e069040d68a5c6477f",
+      "path": "abides-markets/tests/orderbook/test_market_orders.py",
+      "url": "https://raw.githubusercontent.com/jpmorganchase/abides-jpmc-public/f9cbe51342b7dedd9587e4e069040d68a5c6477f/abides-markets/tests/orderbook/test_market_orders.py",
+      "sha256": "0c528d0721b652de7f05f6451a6b893d2ce77aa4aac767086830de35f3410f5b"
+    }
+  ]
+}

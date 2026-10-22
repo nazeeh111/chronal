@@ -1,0 +1,103 @@
+{
+  "scope": "Static source inspection only; no upstream execution or copied implementation",
+  "files": [
+    {
+      "repo": "gloom-sh/gloomberb",
+      "commit": "d24837977d1ab95047e9ea11e79f7463fe330c6a",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/gloom-sh/gloomberb/d24837977d1ab95047e9ea11e79f7463fe330c6a/LICENSE",
+      "sha256": "735bda4a87be6cbfa596f6957866c94838a171ed7e371d6cb59998e60b87f1a7"
+    },
+    {
+      "repo": "gloom-sh/gloomberb",
+      "commit": "d24837977d1ab95047e9ea11e79f7463fe330c6a",
+      "path": "src/components/command-bar/keyboard-handlers.ts",
+      "url": "https://raw.githubusercontent.com/gloom-sh/gloomberb/d24837977d1ab95047e9ea11e79f7463fe330c6a/src/components/command-bar/keyboard-handlers.ts",
+      "sha256": "30912b0b8b8c63e6338e7d8e7752534af87212f13507529b062843caab71e926"
+    },
+    {
+      "repo": "gloom-sh/gloomberb",
+      "commit": "d24837977d1ab95047e9ea11e79f7463fe330c6a",
+      "path": "src/components/command-bar/list/model.ts",
+      "url": "https://raw.githubusercontent.com/gloom-sh/gloomberb/d24837977d1ab95047e9ea11e79f7463fe330c6a/src/components/command-bar/list/model.ts",
+      "sha256": "d9a16e9aaedd4f65a34db31909e1af627390c231f7d1ad6b6a769c84031c70da"
+    },
+    {
+      "repo": "gloom-sh/gloomberb",
+      "commit": "d24837977d1ab95047e9ea11e79f7463fe330c6a",
+      "path": "src/components/command-bar/list/model.test.ts",
+      "url": "https://raw.githubusercontent.com/gloom-sh/gloomberb/d24837977d1ab95047e9ea11e79f7463fe330c6a/src/components/command-bar/list/model.test.ts",
+      "sha256": "e566595e6d09c2de3224fd918e37c9081b8fd52c4b6bc5b6c474a948986dfd16"
+    },
+    {
+      "repo": "gloom-sh/gloomberb",
+      "commit": "d24837977d1ab95047e9ea11e79f7463fe330c6a",
+      "path": "src/components/command-bar/routes/root/shortcuts.test.ts",
+      "url": "https://raw.githubusercontent.com/gloom-sh/gloomberb/d24837977d1ab95047e9ea11e79f7463fe330c6a/src/components/command-bar/routes/root/shortcuts.test.ts",
+      "sha256": "c7f03515307e3f135e3675309f1c69efc8730a41779a3cf7d456c170ae5deda4"
+    },
+    {
+      "repo": "triphopp/bloomberg-terminal",
+      "commit": "8f7b9bb9867d6be5e07659fbe8a637e159d4e3b8",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/triphopp/bloomberg-terminal/8f7b9bb9867d6be5e07659fbe8a637e159d4e3b8/README.md",
+      "sha256": "7bf6e264cf6408c2561d6b2258165e2f2f66b0aae720b752f07a901b4fe60b87"
+    },
+    {
+      "repo": "triphopp/bloomberg-terminal",
+      "commit": "8f7b9bb9867d6be5e07659fbe8a637e159d4e3b8",
+      "path": "components/bloomberg/terminal/autocomplete.ts",
+      "url": "https://raw.githubusercontent.com/triphopp/bloomberg-terminal/8f7b9bb9867d6be5e07659fbe8a637e159d4e3b8/components/bloomberg/terminal/autocomplete.ts",
+      "sha256": "18082beeeb2716827ed795030704d773208dcf25a87a0d1324143540652899de"
+    },
+    {
+      "repo": "triphopp/bloomberg-terminal",
+      "commit": "8f7b9bb9867d6be5e07659fbe8a637e159d4e3b8",
+      "path": "components/bloomberg/terminal/registry.ts",
+      "url": "https://raw.githubusercontent.com/triphopp/bloomberg-terminal/8f7b9bb9867d6be5e07659fbe8a637e159d4e3b8/components/bloomberg/terminal/registry.ts",
+      "sha256": "9a9dc9ca5e4f6f3ad1329d1a54651ddd3b80cd2c8185f88284685e10d50d595e"
+    },
+    {
+      "repo": "triphopp/bloomberg-terminal",
+      "commit": "8f7b9bb9867d6be5e07659fbe8a637e159d4e3b8",
+      "path": "components/bloomberg/terminal/validator.ts",
+      "url": "https://raw.githubusercontent.com/triphopp/bloomberg-terminal/8f7b9bb9867d6be5e07659fbe8a637e159d4e3b8/components/bloomberg/terminal/validator.ts",
+      "sha256": "7ecf28554876d778b349f272db42eb84654ab2b1753bb205f80aac858aefce77"
+    },
+    {
+      "repo": "triphopp/bloomberg-terminal",
+      "commit": "8f7b9bb9867d6be5e07659fbe8a637e159d4e3b8",
+      "path": "docs/terminal-commands/architecture.md",
+      "url": "https://raw.githubusercontent.com/triphopp/bloomberg-terminal/8f7b9bb9867d6be5e07659fbe8a637e159d4e3b8/docs/terminal-commands/architecture.md",
+      "sha256": "98c226ff2f5633ecbc2d4866abbc6314c8891939b458eb2afa29e2e7a480c437"
+    },
+    {
+      "repo": "longbridge/longbridge-terminal",
+      "commit": "9120d0fddd1c47b3087b280b0f2742ec413847a9",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/longbridge/longbridge-terminal/9120d0fddd1c47b3087b280b0f2742ec413847a9/LICENSE",
+      "sha256": "4cae80405e1ec72d42f630a14324f313aa9712bfffe4c53ac93faceea35be1b0"
+    },
+    {
+      "repo": "longbridge/longbridge-terminal",
+      "commit": "9120d0fddd1c47b3087b280b0f2742ec413847a9",
+      "path": "src/cli/completion.rs",
+      "url": "https://raw.githubusercontent.com/longbridge/longbridge-terminal/9120d0fddd1c47b3087b280b0f2742ec413847a9/src/cli/completion.rs",
+      "sha256": "d73f96781873a2d8fdf054e2a535e52f7769c9ec01b9c38efe2c62fb9048f85f"
+    },
+    {
+      "repo": "longbridge/longbridge-terminal",
+      "commit": "9120d0fddd1c47b3087b280b0f2742ec413847a9",
+      "path": "src/tui/input.rs",
+      "url": "https://raw.githubusercontent.com/longbridge/longbridge-terminal/9120d0fddd1c47b3087b280b0f2742ec413847a9/src/tui/input.rs",
+      "sha256": "ccd6c03c7e21fb488cc8f52b844f9f3902e85611962e37643df67c66533d4972"
+    },
+    {
+      "repo": "longbridge/longbridge-terminal",
+      "commit": "9120d0fddd1c47b3087b280b0f2742ec413847a9",
+      "path": "src/tui/widgets/search.rs",
+      "url": "https://raw.githubusercontent.com/longbridge/longbridge-terminal/9120d0fddd1c47b3087b280b0f2742ec413847a9/src/tui/widgets/search.rs",
+      "sha256": "49be8fa6b15d7c67bf7a309bd55f5456bd52c21941d31ce1e0ee248c5a460f74"
+    }
+  ]
+}

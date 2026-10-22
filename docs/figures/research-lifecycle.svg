@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="940" viewBox="0 0 1600 940" role="img" aria-labelledby="figure-title figure-desc">
+<title id="figure-title">Chronal research lifecycle</title>
+<desc id="figure-desc">Validated data and bounded hypotheses become a locked plan, chronological development, cash-ledger evidence, a frozen selection and a separate holdout. Only development evidence feeds AI critique for a new plan. Every stage retains replayable records.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#566b6c"/></marker></defs>
+<rect width="1600" height="940" fill="white"/>
+<text x="64" y="47" fill="#237568" font-family="monospace" font-size="15" font-weight="400" text-anchor="start">CHRONAL / FIGURE 01</text>
+<text x="64" y="99" fill="#183335" font-family="Georgia,serif" font-size="39" font-weight="400" text-anchor="start">From hypothesis to replayable evidence.</text>
+<text x="64" y="134" fill="#566b6c" font-family="Arial,sans-serif" font-size="20" font-weight="400" text-anchor="start">A local research workflow. No live execution path or language-model API is present.</text>
+<g id="input-contract"><title>Declare the inputs</title>
+<rect x="64" y="210" width="300" height="120" rx="9" fill="#f0f7f4" stroke="#cad6d5" stroke-width="1.6"/>
+<path d="M65 228V312" stroke="#237568" stroke-width="4"/>
+<text x="86" y="245" fill="#183335" font-family="Arial,sans-serif" font-size="24" font-weight="600" text-anchor="start">Declare the inputs</text>
+<text x="86" y="275" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">OHLCV + availability</text>
+<text x="86" y="300" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Bounded strategy JSON</text>
+</g>
+<g id="locked-plan"><title>Lock the experiment</title>
+<rect x="430" y="210" width="300" height="120" rx="9" fill="#f0f7f4" stroke="#cad6d5" stroke-width="1.6"/>
+<path d="M431 228V312" stroke="#237568" stroke-width="4"/>
+<text x="452" y="245" fill="#183335" font-family="Arial,sans-serif" font-size="24" font-weight="600" text-anchor="start">Lock the experiment</text>
+<text x="452" y="275" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Data, candidates and code</text>
+<text x="452" y="300" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Costs + chronological windows</text>
+</g>
+<g id="development-folds"><title>Fit, decide, simulate</title>
+<rect x="796" y="210" width="300" height="120" rx="9" fill="#f5f2fa" stroke="#cad6d5" stroke-width="1.6"/>
+<path d="M797 228V312" stroke="#7760a6" stroke-width="4"/>
+<text x="818" y="245" fill="#183335" font-family="Arial,sans-serif" font-size="24" font-weight="600" text-anchor="start">Fit, decide, simulate</text>
+<text x="818" y="275" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Train-only models and scaler</text>
+<text x="818" y="300" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Later-open cash / costs / risk</text>
+</g>
+<g id="development-evidence"><title>Development evidence</title>
+<rect x="1162" y="210" width="300" height="120" rx="9" fill="#f0f7f4" stroke="#cad6d5" stroke-width="1.6"/>
+<path d="M1163 228V312" stroke="#237568" stroke-width="4"/>
+<text x="1184" y="245" fill="#183335" font-family="Arial,sans-serif" font-size="24" font-weight="600" text-anchor="start">Development evidence</text>
+<text x="1184" y="275" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">All registered candidates</text>
+<text x="1184" y="300" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Fold metrics + stress tests</text>
+</g>
+<path id="edge-development-0" d="M364 270H430" fill="none" stroke="#566b6c" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path id="edge-development-1" d="M730 270H796" fill="none" stroke="#566b6c" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path id="edge-development-2" d="M1096 270H1162" fill="none" stroke="#566b6c" stroke-width="2.2" marker-end="url(#arrow)"/>
+<g id="frozen-selection"><title>Freeze one candidate</title>
+<rect x="1162" y="450" width="300" height="120" rx="9" fill="#fcf6ec" stroke="#cad6d5" stroke-width="1.6"/>
+<path d="M1163 468V552" stroke="#ac7225" stroke-width="4"/>
+<text x="1184" y="485" fill="#183335" font-family="Arial,sans-serif" font-size="24" font-weight="600" text-anchor="start">Freeze one candidate</text>
+<text x="1184" y="515" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Development Sharpe rule</text>
+<text x="1184" y="540" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Exact registered specification</text>
+</g>
+<path id="edge-freeze" d="M1312 330V450" fill="none" stroke="#566b6c" stroke-width="2.2" marker-end="url(#arrow)"/>
+<text x="1330" y="394" fill="#ac7225" font-family="Arial,sans-serif" font-size="16" font-weight="400" text-anchor="start">selection boundary</text>
+<g id="separate-holdout"><title>Open the holdout</title>
+<rect x="796" y="450" width="300" height="120" rx="9" fill="#fcf6ec" stroke="#cad6d5" stroke-width="1.6"/>
+<path d="M797 468V552" stroke="#ac7225" stroke-width="4"/>
+<text x="818" y="485" fill="#183335" font-family="Arial,sans-serif" font-size="24" font-weight="600" text-anchor="start">Open the holdout</text>
+<text x="818" y="515" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Frozen candidate + baseline</text>
+<text x="818" y="540" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">New cash book; earlier-only fits</text>
+</g>
+<g id="holdout-record"><title>Retain the outcome</title>
+<rect x="430" y="450" width="300" height="120" rx="9" fill="#f0f7f4" stroke="#cad6d5" stroke-width="1.6"/>
+<path d="M431 468V552" stroke="#237568" stroke-width="4"/>
+<text x="452" y="485" fill="#183335" font-family="Arial,sans-serif" font-size="24" font-weight="600" text-anchor="start">Retain the outcome</text>
+<text x="452" y="515" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Report, fills, positions, CSVs</text>
+<text x="452" y="540" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">No candidate reselection</text>
+</g>
+<g id="verification"><title>Verify and replay</title>
+<rect x="64" y="450" width="300" height="120" rx="9" fill="#f0f7f4" stroke="#cad6d5" stroke-width="1.6"/>
+<path d="M65 468V552" stroke="#237568" stroke-width="4"/>
+<text x="86" y="485" fill="#183335" font-family="Arial,sans-serif" font-size="24" font-weight="600" text-anchor="start">Verify and replay</text>
+<text x="86" y="515" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Cash / shares / fees / NAV</text>
+<text x="86" y="540" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Source, exports and selection</text>
+</g>
+<path id="edge-holdout-0" d="M1162 510H1096" fill="none" stroke="#566b6c" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path id="edge-holdout-1" d="M796 510H730" fill="none" stroke="#566b6c" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path id="edge-holdout-2" d="M430 510H364" fill="none" stroke="#566b6c" stroke-width="2.2" marker-end="url(#arrow)"/>
+<g id="ai-packet"><title>AI review packet</title>
+<rect x="1162" y="710" width="300" height="120" rx="9" fill="#f5f2fa" stroke="#cad6d5" stroke-width="1.6"/>
+<path d="M1163 728V812" stroke="#7760a6" stroke-width="4"/>
+<text x="1184" y="745" fill="#183335" font-family="Arial,sans-serif" font-size="24" font-weight="600" text-anchor="start">AI review packet</text>
+<text x="1184" y="775" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Development evidence only</text>
+<text x="1184" y="800" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Holdout observations excluded</text>
+</g>
+<g id="new-hypotheses"><title>Critique the mechanism</title>
+<rect x="796" y="710" width="300" height="120" rx="9" fill="#f5f2fa" stroke="#cad6d5" stroke-width="1.6"/>
+<path d="M797 728V812" stroke="#7760a6" stroke-width="4"/>
+<text x="818" y="745" fill="#183335" font-family="Arial,sans-serif" font-size="24" font-weight="600" text-anchor="start">Critique the mechanism</text>
+<text x="818" y="775" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Existing user assistant</text>
+<text x="818" y="800" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Return bounded JSON; no code</text>
+</g>
+<g id="new-plan"><title>Register a new plan</title>
+<rect x="430" y="710" width="300" height="120" rx="9" fill="#f5f2fa" stroke="#cad6d5" stroke-width="1.6"/>
+<path d="M431 728V812" stroke="#7760a6" stroke-width="4"/>
+<text x="452" y="745" fill="#183335" font-family="Arial,sans-serif" font-size="24" font-weight="600" text-anchor="start">Register a new plan</text>
+<text x="452" y="775" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Preserve previous trial history</text>
+<text x="452" y="800" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Use new confirmatory data</text>
+</g>
+<path id="edge-development-packet" d="M1462 270H1525V770H1462" fill="none" stroke="#566b6c" stroke-width="2.2" stroke-dasharray="8 6" marker-end="url(#arrow)"/>
+<text x="1312" y="687" fill="#7760a6" font-family="Arial,sans-serif" font-size="16" font-weight="400" text-anchor="middle">Only this evidence enters critique</text>
+<path id="edge-packet-critique" d="M1162 770H1096" fill="none" stroke="#566b6c" stroke-width="2.2" stroke-dasharray="8 6" marker-end="url(#arrow)"/>
+<path id="edge-critique-new-plan" d="M796 770H730" fill="none" stroke="#566b6c" stroke-width="2.2" stroke-dasharray="8 6" marker-end="url(#arrow)"/>
+<path id="edge-new-plan-registration" d="M580 830V872H34V371H580V330" fill="none" stroke="#566b6c" stroke-width="2.2" stroke-dasharray="8 6" marker-end="url(#arrow)"/>
+<text x="64" y="910" fill="#566b6c" font-family="Arial,sans-serif" font-size="17" font-weight="400" text-anchor="start">Solid: evaluated experiment     Dashed: optional hypothesis revision     Both evaluated stages retain full evidence bundles.</text>
+</svg>

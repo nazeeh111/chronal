@@ -1,0 +1,117 @@
+{
+  "scope": "Static primary-source inspection only. No upstream code copied into CHRONAL, executed or installed.",
+  "files": [
+    {
+      "repo": "finos/perspective",
+      "commit": "0857a7d9c1e34f9d82496b8a81f6778944178b85",
+      "path": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/finos/perspective/0857a7d9c1e34f9d82496b8a81f6778944178b85/LICENSE.md",
+      "sha256": "4339a06f638aa50ed33dbca17b29d8f397b6072837724054726e8c94f9ffe23b",
+      "local": "work/publish-research/finos-perspective/LICENSE.md"
+    },
+    {
+      "repo": "finos/perspective",
+      "commit": "0857a7d9c1e34f9d82496b8a81f6778944178b85",
+      "path": "docs/md/how_to/javascript/save_restore.md",
+      "url": "https://raw.githubusercontent.com/finos/perspective/0857a7d9c1e34f9d82496b8a81f6778944178b85/docs/md/how_to/javascript/save_restore.md",
+      "sha256": "613b86c3db468cef5419e6d6388e741684ec729660f583600a4c9ab2d61310fc",
+      "local": "work/publish-research/finos-perspective/docs/md/how_to/javascript/save_restore.md"
+    },
+    {
+      "repo": "finos/perspective",
+      "commit": "0857a7d9c1e34f9d82496b8a81f6778944178b85",
+      "path": "rust/perspective-viewer/src/rust/tasks/transactional_restore.rs",
+      "url": "https://raw.githubusercontent.com/finos/perspective/0857a7d9c1e34f9d82496b8a81f6778944178b85/rust/perspective-viewer/src/rust/tasks/transactional_restore.rs",
+      "sha256": "a7d40cb7f6aabd10ab06fe4d411ebf0e63e812eafe3f2a0c59bd0d7b9786fa0a",
+      "local": "work/publish-research/finos-perspective/rust/perspective-viewer/src/rust/tasks/transactional_restore.rs"
+    },
+    {
+      "repo": "finos/perspective",
+      "commit": "0857a7d9c1e34f9d82496b8a81f6778944178b85",
+      "path": "rust/perspective-viewer/test/js/viewer_api/save_restore.spec.ts",
+      "url": "https://raw.githubusercontent.com/finos/perspective/0857a7d9c1e34f9d82496b8a81f6778944178b85/rust/perspective-viewer/test/js/viewer_api/save_restore.spec.ts",
+      "sha256": "f63ff7fca8bc1015317da280b208618901968ddfbd2e0882bf204d450e6b592e",
+      "local": "work/publish-research/finos-perspective/rust/perspective-viewer/test/js/viewer_api/save_restore.spec.ts"
+    },
+    {
+      "repo": "simonw/datasette",
+      "commit": "a8e13cc489b41f2f9a5aa691f5eb1bedf99a0e0b",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/simonw/datasette/a8e13cc489b41f2f9a5aa691f5eb1bedf99a0e0b/LICENSE",
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "local": "work/publish-research/simonw-datasette/LICENSE"
+    },
+    {
+      "repo": "simonw/datasette",
+      "commit": "a8e13cc489b41f2f9a5aa691f5eb1bedf99a0e0b",
+      "path": "datasette/views/base.py",
+      "url": "https://raw.githubusercontent.com/simonw/datasette/a8e13cc489b41f2f9a5aa691f5eb1bedf99a0e0b/datasette/views/base.py",
+      "sha256": "385a1bc32af1996205152fa20ef16f0d7935fb4653217d12c78f3ed7af065166",
+      "local": "work/publish-research/simonw-datasette/datasette/views/base.py"
+    },
+    {
+      "repo": "simonw/datasette",
+      "commit": "a8e13cc489b41f2f9a5aa691f5eb1bedf99a0e0b",
+      "path": "datasette/utils/__init__.py",
+      "url": "https://raw.githubusercontent.com/simonw/datasette/a8e13cc489b41f2f9a5aa691f5eb1bedf99a0e0b/datasette/utils/__init__.py",
+      "sha256": "a63a5dee806fb1afa9260d44384ec64702f8273dba1b4d3e4cec1192ad35f06f",
+      "local": "work/publish-research/simonw-datasette/datasette/utils/__init__.py"
+    },
+    {
+      "repo": "simonw/datasette",
+      "commit": "a8e13cc489b41f2f9a5aa691f5eb1bedf99a0e0b",
+      "path": "docs/csv_export.rst",
+      "url": "https://raw.githubusercontent.com/simonw/datasette/a8e13cc489b41f2f9a5aa691f5eb1bedf99a0e0b/docs/csv_export.rst",
+      "sha256": "727885e49fa2c4d01e60493bc9f6963d406482aa517e5841b9a09fc74aff1c9f",
+      "local": "work/publish-research/simonw-datasette/docs/csv_export.rst"
+    },
+    {
+      "repo": "simonw/datasette",
+      "commit": "a8e13cc489b41f2f9a5aa691f5eb1bedf99a0e0b",
+      "path": "tests/test_csv.py",
+      "url": "https://raw.githubusercontent.com/simonw/datasette/a8e13cc489b41f2f9a5aa691f5eb1bedf99a0e0b/tests/test_csv.py",
+      "sha256": "01001358fc918de1846ab5b3acd9235e710eff5bd04dcb3d4746fe7e315e3921",
+      "local": "work/publish-research/simonw-datasette/tests/test_csv.py"
+    },
+    {
+      "repo": "holoviz/panel",
+      "commit": "25bd3e07e41bd73e26b22ef0f9a532ea0aed16a3",
+      "path": "LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/holoviz/panel/25bd3e07e41bd73e26b22ef0f9a532ea0aed16a3/LICENSE.txt",
+      "sha256": "26a6e1ee7a1824aa406340945dfe5478c36d7b0e6f2e52c79916c1ac8a3a5eb1",
+      "local": "work/publish-research/holoviz-panel/LICENSE.txt"
+    },
+    {
+      "repo": "holoviz/panel",
+      "commit": "25bd3e07e41bd73e26b22ef0f9a532ea0aed16a3",
+      "path": "panel/io/location.py",
+      "url": "https://raw.githubusercontent.com/holoviz/panel/25bd3e07e41bd73e26b22ef0f9a532ea0aed16a3/panel/io/location.py",
+      "sha256": "d652f56e94f8abeea5312042362e756ebcdad93070b510ca55c7f9d0fe2895cb",
+      "local": "work/publish-research/holoviz-panel/panel/io/location.py"
+    },
+    {
+      "repo": "holoviz/panel",
+      "commit": "25bd3e07e41bd73e26b22ef0f9a532ea0aed16a3",
+      "path": "panel/tests/io/test_location.py",
+      "url": "https://raw.githubusercontent.com/holoviz/panel/25bd3e07e41bd73e26b22ef0f9a532ea0aed16a3/panel/tests/io/test_location.py",
+      "sha256": "880043d5e3e7e77a89d4a52d6e60f316a36cc44818e87354d9cdad77f3377d5d",
+      "local": "work/publish-research/holoviz-panel/panel/tests/io/test_location.py"
+    },
+    {
+      "repo": "holoviz/panel",
+      "commit": "25bd3e07e41bd73e26b22ef0f9a532ea0aed16a3",
+      "path": "doc/how_to/state/url.md",
+      "url": "https://raw.githubusercontent.com/holoviz/panel/25bd3e07e41bd73e26b22ef0f9a532ea0aed16a3/doc/how_to/state/url.md",
+      "sha256": "68ed5d9bcdc7f72e1774ce4c8490d203fed56eccc628bdcc7d263b1793731786",
+      "local": "work/publish-research/holoviz-panel/doc/how_to/state/url.md"
+    },
+    {
+      "repo": "finos/perspective",
+      "commit": "0857a7d9c1e34f9d82496b8a81f6778944178b85",
+      "path": "packages/viewer-datagrid/test/js/transactional_restore.spec.ts",
+      "url": "https://raw.githubusercontent.com/finos/perspective/0857a7d9c1e34f9d82496b8a81f6778944178b85/packages/viewer-datagrid/test/js/transactional_restore.spec.ts",
+      "sha256": "1e842e58a30479197d795cbb33fab9ea5a3b6fef3df4286d9fd1b73a02f1bbb0",
+      "local": "work/publish-research/finos-perspective/packages/viewer-datagrid/test/js/transactional_restore.spec.ts"
+    }
+  ]
+}

@@ -1,0 +1,518 @@
+{
+  "inspected_at": "2026-10-21",
+  "scope": "Static source inspection; no upstream runtime or performance replication. Source bytes not vendored.",
+  "files": [
+    {
+      "repo": "TauricResearch/TradingAgents",
+      "commit": "e8f5503e9b86d5c2710b0c76b1f686703968c9df",
+      "path": "LICENSE",
+      "url": "https://github.com/TauricResearch/TradingAgents/blob/e8f5503e9b86d5c2710b0c76b1f686703968c9df/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "repo": "TauricResearch/TradingAgents",
+      "commit": "e8f5503e9b86d5c2710b0c76b1f686703968c9df",
+      "path": "tests/test_memory_pointintime.py",
+      "url": "https://github.com/TauricResearch/TradingAgents/blob/e8f5503e9b86d5c2710b0c76b1f686703968c9df/tests/test_memory_pointintime.py",
+      "sha256": "92f4249578ee6be5d53e5a7cdf34bb1b2b1b297b03b9570fee7113d8661ecf3b"
+    },
+    {
+      "repo": "TauricResearch/TradingAgents",
+      "commit": "e8f5503e9b86d5c2710b0c76b1f686703968c9df",
+      "path": "tradingagents/agents/managers/portfolio_manager.py",
+      "url": "https://github.com/TauricResearch/TradingAgents/blob/e8f5503e9b86d5c2710b0c76b1f686703968c9df/tradingagents/agents/managers/portfolio_manager.py",
+      "sha256": "a6c62bf32a99003109179d645b2d98eee66090b5a6453ceb53a475f5bf900bba"
+    },
+    {
+      "repo": "TauricResearch/TradingAgents",
+      "commit": "e8f5503e9b86d5c2710b0c76b1f686703968c9df",
+      "path": "tradingagents/agents/tools.py",
+      "url": "https://github.com/TauricResearch/TradingAgents/blob/e8f5503e9b86d5c2710b0c76b1f686703968c9df/tradingagents/agents/tools.py",
+      "sha256": "34172e04bb247923eef29620032b8e62bc1791a5b802637e46ed4cc0b5220837"
+    },
+    {
+      "repo": "TauricResearch/TradingAgents",
+      "commit": "e8f5503e9b86d5c2710b0c76b1f686703968c9df",
+      "path": "tradingagents/backtest.py",
+      "url": "https://github.com/TauricResearch/TradingAgents/blob/e8f5503e9b86d5c2710b0c76b1f686703968c9df/tradingagents/backtest.py",
+      "sha256": "c25623d2acb22ff2bd0c144305c099b5858ba7dbf250e7c636a009109b2b805f"
+    },
+    {
+      "repo": "TauricResearch/TradingAgents",
+      "commit": "e8f5503e9b86d5c2710b0c76b1f686703968c9df",
+      "path": "tradingagents/dataflows/date_window.py",
+      "url": "https://github.com/TauricResearch/TradingAgents/blob/e8f5503e9b86d5c2710b0c76b1f686703968c9df/tradingagents/dataflows/date_window.py",
+      "sha256": "e2668904533e9ec0bfcf9dd7fd5adba7508d9597b4e85982625c819c2407072a"
+    },
+    {
+      "repo": "TauricResearch/TradingAgents",
+      "commit": "e8f5503e9b86d5c2710b0c76b1f686703968c9df",
+      "path": "tradingagents/dataflows/vendors/sec_edgar.py",
+      "url": "https://github.com/TauricResearch/TradingAgents/blob/e8f5503e9b86d5c2710b0c76b1f686703968c9df/tradingagents/dataflows/vendors/sec_edgar.py",
+      "sha256": "0189154cb5c76082e3aca5e0e187c677a857e56bd1a5aee49dddb10f1f989f9c"
+    },
+    {
+      "repo": "TauricResearch/TradingAgents",
+      "commit": "e8f5503e9b86d5c2710b0c76b1f686703968c9df",
+      "path": "tradingagents/graph/setup.py",
+      "url": "https://github.com/TauricResearch/TradingAgents/blob/e8f5503e9b86d5c2710b0c76b1f686703968c9df/tradingagents/graph/setup.py",
+      "sha256": "a2790ebd549ff082e114b43201997ac29b7e58d00e643536d4ced8e949c855be"
+    },
+    {
+      "repo": "TauricResearch/TradingAgents",
+      "commit": "e8f5503e9b86d5c2710b0c76b1f686703968c9df",
+      "path": "tradingagents/memory/log.py",
+      "url": "https://github.com/TauricResearch/TradingAgents/blob/e8f5503e9b86d5c2710b0c76b1f686703968c9df/tradingagents/memory/log.py",
+      "sha256": "7b15db223fa839f09223e9f0fddd95d93fd8eb0dfd6911a218d1bb5b8c06841a"
+    },
+    {
+      "repo": "TauricResearch/TradingAgents",
+      "commit": "e8f5503e9b86d5c2710b0c76b1f686703968c9df",
+      "path": "tradingagents/memory/settlement.py",
+      "url": "https://github.com/TauricResearch/TradingAgents/blob/e8f5503e9b86d5c2710b0c76b1f686703968c9df/tradingagents/memory/settlement.py",
+      "sha256": "809ad32352742834ed1d1a0491dc6046bc1b899dcffd8efddd0a46840a977c0f"
+    },
+    {
+      "repo": "TauricResearch/TradingAgents",
+      "commit": "e8f5503e9b86d5c2710b0c76b1f686703968c9df",
+      "path": "tradingagents/portfolio.py",
+      "url": "https://github.com/TauricResearch/TradingAgents/blob/e8f5503e9b86d5c2710b0c76b1f686703968c9df/tradingagents/portfolio.py",
+      "sha256": "59f52f1a0c5402ff1313eef9deae0c378aa3996e23ba202abc983d2cae6b07ed"
+    },
+    {
+      "repo": "virattt/ai-hedge-fund",
+      "commit": "4e1657ddc689e3939c481a8f0955444b10f02dc9",
+      "path": "LICENSE",
+      "url": "https://github.com/virattt/ai-hedge-fund/blob/4e1657ddc689e3939c481a8f0955444b10f02dc9/LICENSE",
+      "sha256": "6cb192c4a37c69c84459d2e1b3da7af51b06d91e35be521c898107bdae18e2a4"
+    },
+    {
+      "repo": "virattt/ai-hedge-fund",
+      "commit": "4e1657ddc689e3939c481a8f0955444b10f02dc9",
+      "path": "hedge_fund/backtesting/fund.py",
+      "url": "https://github.com/virattt/ai-hedge-fund/blob/4e1657ddc689e3939c481a8f0955444b10f02dc9/hedge_fund/backtesting/fund.py",
+      "sha256": "246b7e1c2951e0941a357aa2ffcc2aa35292d5bb9c9d4b2994ac93bad518f4e5"
+    },
+    {
+      "repo": "virattt/ai-hedge-fund",
+      "commit": "4e1657ddc689e3939c481a8f0955444b10f02dc9",
+      "path": "hedge_fund/brokers/sim.py",
+      "url": "https://github.com/virattt/ai-hedge-fund/blob/4e1657ddc689e3939c481a8f0955444b10f02dc9/hedge_fund/brokers/sim.py",
+      "sha256": "45123b471c046385a1d8eabd06a57a5b0e1d69b64707f5b1b07efb973dc2fce0"
+    },
+    {
+      "repo": "virattt/ai-hedge-fund",
+      "commit": "4e1657ddc689e3939c481a8f0955444b10f02dc9",
+      "path": "hedge_fund/data/client.py",
+      "url": "https://github.com/virattt/ai-hedge-fund/blob/4e1657ddc689e3939c481a8f0955444b10f02dc9/hedge_fund/data/client.py",
+      "sha256": "c22c2981bab24409d30ad6236e5f945ebb34e8687d675bf015993474c52c97b6"
+    },
+    {
+      "repo": "virattt/ai-hedge-fund",
+      "commit": "4e1657ddc689e3939c481a8f0955444b10f02dc9",
+      "path": "hedge_fund/llm/client.py",
+      "url": "https://github.com/virattt/ai-hedge-fund/blob/4e1657ddc689e3939c481a8f0955444b10f02dc9/hedge_fund/llm/client.py",
+      "sha256": "f642116fe82277b05f3cbec1d2bb28315ef0bccb4222d76eb1fd11e2b01bb511"
+    },
+    {
+      "repo": "virattt/ai-hedge-fund",
+      "commit": "4e1657ddc689e3939c481a8f0955444b10f02dc9",
+      "path": "hedge_fund/pipeline/clock.py",
+      "url": "https://github.com/virattt/ai-hedge-fund/blob/4e1657ddc689e3939c481a8f0955444b10f02dc9/hedge_fund/pipeline/clock.py",
+      "sha256": "6ffa577eb7932a51041817e2bde1044cbdb2d5bafba1de80d3aa97212718c5cc"
+    },
+    {
+      "repo": "virattt/ai-hedge-fund",
+      "commit": "4e1657ddc689e3939c481a8f0955444b10f02dc9",
+      "path": "hedge_fund/pipeline/session.py",
+      "url": "https://github.com/virattt/ai-hedge-fund/blob/4e1657ddc689e3939c481a8f0955444b10f02dc9/hedge_fund/pipeline/session.py",
+      "sha256": "aba923c81fcba17799b96638eda67446c8ecef6460e4a5209ce139985044819f"
+    },
+    {
+      "repo": "virattt/ai-hedge-fund",
+      "commit": "4e1657ddc689e3939c481a8f0955444b10f02dc9",
+      "path": "hedge_fund/portfolio/construction.py",
+      "url": "https://github.com/virattt/ai-hedge-fund/blob/4e1657ddc689e3939c481a8f0955444b10f02dc9/hedge_fund/portfolio/construction.py",
+      "sha256": "032ea982655ff47e562e3a0cdd1ac72a365032301e0c13d57551de96d4a68fe6"
+    },
+    {
+      "repo": "virattt/ai-hedge-fund",
+      "commit": "4e1657ddc689e3939c481a8f0955444b10f02dc9",
+      "path": "hedge_fund/portfolio/validation.py",
+      "url": "https://github.com/virattt/ai-hedge-fund/blob/4e1657ddc689e3939c481a8f0955444b10f02dc9/hedge_fund/portfolio/validation.py",
+      "sha256": "1fcacb30fd8faef41178bd32fd4ed0383c9ce9aa46b7472f8fec6f3d4d8dfdb2"
+    },
+    {
+      "repo": "virattt/ai-hedge-fund",
+      "commit": "4e1657ddc689e3939c481a8f0955444b10f02dc9",
+      "path": "hedge_fund/risk/limits.py",
+      "url": "https://github.com/virattt/ai-hedge-fund/blob/4e1657ddc689e3939c481a8f0955444b10f02dc9/hedge_fund/risk/limits.py",
+      "sha256": "c7328e79fa4abff7e3ab0de95eca0756d4b4ed5114b29827f953d00f355f454a"
+    },
+    {
+      "repo": "AI4Finance-Foundation/FinRL",
+      "commit": "c0018c25de864157dc8470f0047b0d10ec721715",
+      "path": "LICENSE",
+      "url": "https://github.com/AI4Finance-Foundation/FinRL/blob/c0018c25de864157dc8470f0047b0d10ec721715/LICENSE",
+      "sha256": "486a06be9075686b75b35649de0adf9076508c5d0cc5b00af7928b7a96bffe65"
+    },
+    {
+      "repo": "AI4Finance-Foundation/FinRL",
+      "commit": "c0018c25de864157dc8470f0047b0d10ec721715",
+      "path": "finrl/meta/env_stock_trading/env_stocktrading_np.py",
+      "url": "https://github.com/AI4Finance-Foundation/FinRL/blob/c0018c25de864157dc8470f0047b0d10ec721715/finrl/meta/env_stock_trading/env_stocktrading_np.py",
+      "sha256": "ab5138ad56b953ba9794a38575559c2384d4a64c00cac993d1dc87bb1efe1eaa"
+    },
+    {
+      "repo": "AI4Finance-Foundation/FinRL",
+      "commit": "c0018c25de864157dc8470f0047b0d10ec721715",
+      "path": "finrl/meta/preprocessor/preprocessors.py",
+      "url": "https://github.com/AI4Finance-Foundation/FinRL/blob/c0018c25de864157dc8470f0047b0d10ec721715/finrl/meta/preprocessor/preprocessors.py",
+      "sha256": "5fb0843883cb4ac74bbe8741c291748fc796d1db9d9eee2295e97fd914755eee"
+    },
+    {
+      "repo": "AI4Finance-Foundation/FinRL",
+      "commit": "c0018c25de864157dc8470f0047b0d10ec721715",
+      "path": "pyproject.toml",
+      "url": "https://github.com/AI4Finance-Foundation/FinRL/blob/c0018c25de864157dc8470f0047b0d10ec721715/pyproject.toml",
+      "sha256": "7577eef126ce8a94704d02d21d4cd600dd1340205c455ad493285622a2e81d78"
+    },
+    {
+      "repo": "AI4Finance-Foundation/FinRL",
+      "commit": "c0018c25de864157dc8470f0047b0d10ec721715",
+      "path": "setup.py",
+      "url": "https://github.com/AI4Finance-Foundation/FinRL/blob/c0018c25de864157dc8470f0047b0d10ec721715/setup.py",
+      "sha256": "0a38dc1618e090e5e58a950aa212eb7f03bf331a9beec36256b181b9cc8dfd50"
+    },
+    {
+      "repo": "felis33/INVESTOR-BENCH",
+      "commit": "87e0f7bc83baf7d89fbdc1a51f92458f8d4ee11a",
+      "path": "LICENSE",
+      "url": "https://github.com/felis33/INVESTOR-BENCH/blob/87e0f7bc83baf7d89fbdc1a51f92458f8d4ee11a/LICENSE",
+      "sha256": "6dc54f189d8ef19c4a74a7a489ed2de098a70e0764c0e105f60edd699ed10183"
+    },
+    {
+      "repo": "felis33/INVESTOR-BENCH",
+      "commit": "87e0f7bc83baf7d89fbdc1a51f92458f8d4ee11a",
+      "path": "requirements.txt",
+      "url": "https://github.com/felis33/INVESTOR-BENCH/blob/87e0f7bc83baf7d89fbdc1a51f92458f8d4ee11a/requirements.txt",
+      "sha256": "6bb7bb337889747882836bb1aaa33e441ce37dfa9edf56df7244a9ddde57afae"
+    },
+    {
+      "repo": "felis33/INVESTOR-BENCH",
+      "commit": "87e0f7bc83baf7d89fbdc1a51f92458f8d4ee11a",
+      "path": "src/agent.py",
+      "url": "https://github.com/felis33/INVESTOR-BENCH/blob/87e0f7bc83baf7d89fbdc1a51f92458f8d4ee11a/src/agent.py",
+      "sha256": "87c73e8607c7f817e25505abeabc0bd255f3be3a107e761b75632e4d2ce79462"
+    },
+    {
+      "repo": "felis33/INVESTOR-BENCH",
+      "commit": "87e0f7bc83baf7d89fbdc1a51f92458f8d4ee11a",
+      "path": "src/chat/prompt/base.py",
+      "url": "https://github.com/felis33/INVESTOR-BENCH/blob/87e0f7bc83baf7d89fbdc1a51f92458f8d4ee11a/src/chat/prompt/base.py",
+      "sha256": "be9412de30f56c834294e63bc5159b8e8e8baf5d9302d7970113668bcca3a626"
+    },
+    {
+      "repo": "felis33/INVESTOR-BENCH",
+      "commit": "87e0f7bc83baf7d89fbdc1a51f92458f8d4ee11a",
+      "path": "src/chat/prompt/guardrail.py",
+      "url": "https://github.com/felis33/INVESTOR-BENCH/blob/87e0f7bc83baf7d89fbdc1a51f92458f8d4ee11a/src/chat/prompt/guardrail.py",
+      "sha256": "b5aaf1b6d38c3a6771cee63f8bef5ff79a02acd1eec2fb44c7a18856fd6f7005"
+    },
+    {
+      "repo": "felis33/INVESTOR-BENCH",
+      "commit": "87e0f7bc83baf7d89fbdc1a51f92458f8d4ee11a",
+      "path": "src/chat/prompt/vllm_prompt.py",
+      "url": "https://github.com/felis33/INVESTOR-BENCH/blob/87e0f7bc83baf7d89fbdc1a51f92458f8d4ee11a/src/chat/prompt/vllm_prompt.py",
+      "sha256": "fed53d28b4c1b1543df2c636fcc95e9072a01a2efd86691c4ba6370985e1585c"
+    },
+    {
+      "repo": "felis33/INVESTOR-BENCH",
+      "commit": "87e0f7bc83baf7d89fbdc1a51f92458f8d4ee11a",
+      "path": "src/embedding.py",
+      "url": "https://github.com/felis33/INVESTOR-BENCH/blob/87e0f7bc83baf7d89fbdc1a51f92458f8d4ee11a/src/embedding.py",
+      "sha256": "6e90e958b775ddd7f89383c67a3cdfa5fa4901a0304d5fb641ceba01d8e114d3"
+    },
+    {
+      "repo": "felis33/INVESTOR-BENCH",
+      "commit": "87e0f7bc83baf7d89fbdc1a51f92458f8d4ee11a",
+      "path": "src/eval_pipeline.py",
+      "url": "https://github.com/felis33/INVESTOR-BENCH/blob/87e0f7bc83baf7d89fbdc1a51f92458f8d4ee11a/src/eval_pipeline.py",
+      "sha256": "f22974a97cdd5dcb0307cb6c08e1fdf906aaab2820c0ed7ae2510bcea291c1b0"
+    },
+    {
+      "repo": "felis33/INVESTOR-BENCH",
+      "commit": "87e0f7bc83baf7d89fbdc1a51f92458f8d4ee11a",
+      "path": "src/market_env.py",
+      "url": "https://github.com/felis33/INVESTOR-BENCH/blob/87e0f7bc83baf7d89fbdc1a51f92458f8d4ee11a/src/market_env.py",
+      "sha256": "b24bf2f481f47311a9a00cb564c183b694f013057f47f57510e8dd9fadb67460"
+    },
+    {
+      "repo": "felis33/INVESTOR-BENCH",
+      "commit": "87e0f7bc83baf7d89fbdc1a51f92458f8d4ee11a",
+      "path": "src/memory_db.py",
+      "url": "https://github.com/felis33/INVESTOR-BENCH/blob/87e0f7bc83baf7d89fbdc1a51f92458f8d4ee11a/src/memory_db.py",
+      "sha256": "f6cc66a001827d837b05a1aab556a61a0475e993f0a6216c24f0d9e7bb04a469"
+    },
+    {
+      "repo": "felis33/INVESTOR-BENCH",
+      "commit": "87e0f7bc83baf7d89fbdc1a51f92458f8d4ee11a",
+      "path": "src/portfolio.py",
+      "url": "https://github.com/felis33/INVESTOR-BENCH/blob/87e0f7bc83baf7d89fbdc1a51f92458f8d4ee11a/src/portfolio.py",
+      "sha256": "03016d88964fff9f68d93c48d20149f60f4103115cf2ad13ef6c7b92a48a81c7"
+    },
+    {
+      "repo": "felis33/INVESTOR-BENCH",
+      "commit": "87e0f7bc83baf7d89fbdc1a51f92458f8d4ee11a",
+      "path": "src/utils.py",
+      "url": "https://github.com/felis33/INVESTOR-BENCH/blob/87e0f7bc83baf7d89fbdc1a51f92458f8d4ee11a/src/utils.py",
+      "sha256": "dba4fc755a4fa9282f0cf2e0d3b7da14833ea87e5d6fada87e711864d2edb8d9"
+    },
+    {
+      "repo": "QuantConnect/Lean",
+      "commit": "de116c0de654108bc9b3bcb643571ab0b754cbb4",
+      "path": "LICENSE",
+      "url": "https://github.com/QuantConnect/Lean/blob/de116c0de654108bc9b3bcb643571ab0b754cbb4/LICENSE",
+      "sha256": "522cf0a716ce03f67d46f8fceb5bf78c5b84400ec5cd8d14bf9f02cddc1cb6ba"
+    },
+    {
+      "repo": "QuantConnect/Lean",
+      "commit": "de116c0de654108bc9b3bcb643571ab0b754cbb4",
+      "path": "Common/Orders/Fills/EquityFillModel.cs",
+      "url": "https://github.com/QuantConnect/Lean/blob/de116c0de654108bc9b3bcb643571ab0b754cbb4/Common/Orders/Fills/EquityFillModel.cs",
+      "sha256": "7f8c0e35eb538f5a63184c9b5ef4b32886e2c7779ccce1e773229a1a1ec18232"
+    },
+    {
+      "repo": "QuantConnect/Lean",
+      "commit": "de116c0de654108bc9b3bcb643571ab0b754cbb4",
+      "path": "Common/Securities/SecurityPortfolioModel.cs",
+      "url": "https://github.com/QuantConnect/Lean/blob/de116c0de654108bc9b3bcb643571ab0b754cbb4/Common/Securities/SecurityPortfolioModel.cs",
+      "sha256": "8d9812b4b4178d31663567e3d925b21dc721cda6a2bef8706a628ba3cc6afe8e"
+    },
+    {
+      "repo": "QuantConnect/Lean",
+      "commit": "de116c0de654108bc9b3bcb643571ab0b754cbb4",
+      "path": "Tests/Common/Orders/Fills/EquityFillModelTests.cs",
+      "url": "https://github.com/QuantConnect/Lean/blob/de116c0de654108bc9b3bcb643571ab0b754cbb4/Tests/Common/Orders/Fills/EquityFillModelTests.cs",
+      "sha256": "89bb0db4f60816965c63e91bdde92d2c85e9e570015439b83ca27c97a1e505db"
+    },
+    {
+      "repo": "QuantConnect/Lean",
+      "commit": "de116c0de654108bc9b3bcb643571ab0b754cbb4",
+      "path": "Common/Orders/Fees/InteractiveBrokersFeeModel.cs",
+      "url": "https://github.com/QuantConnect/Lean/blob/de116c0de654108bc9b3bcb643571ab0b754cbb4/Common/Orders/Fees/InteractiveBrokersFeeModel.cs",
+      "sha256": "ade97783ee67bc444a3c16ed63b48b47783e995babf88d15399e856d8b237b8b"
+    },
+    {
+      "repo": "nautechsystems/nautilus_trader",
+      "commit": "d9669fc23a9499b337e2be4e62d7a10e7db9610d",
+      "path": "LICENSE",
+      "url": "https://github.com/nautechsystems/nautilus_trader/blob/d9669fc23a9499b337e2be4e62d7a10e7db9610d/LICENSE",
+      "sha256": "ee907919ec88c9c017b1f8b608db20960b6598aefcc4fe58820bde955d65ed3c"
+    },
+    {
+      "repo": "nautechsystems/nautilus_trader",
+      "commit": "d9669fc23a9499b337e2be4e62d7a10e7db9610d",
+      "path": "crates/backtest/tests/integration/fee_model.rs",
+      "url": "https://github.com/nautechsystems/nautilus_trader/blob/d9669fc23a9499b337e2be4e62d7a10e7db9610d/crates/backtest/tests/integration/fee_model.rs",
+      "sha256": "a9a5e089c1c9901d110e03acf9dc8120008cbbf51b1b6fe78c0770fe026965b8"
+    },
+    {
+      "repo": "nautechsystems/nautilus_trader",
+      "commit": "d9669fc23a9499b337e2be4e62d7a10e7db9610d",
+      "path": "crates/execution/tests/integration/matching_engine/fill_models.rs",
+      "url": "https://github.com/nautechsystems/nautilus_trader/blob/d9669fc23a9499b337e2be4e62d7a10e7db9610d/crates/execution/tests/integration/matching_engine/fill_models.rs",
+      "sha256": "8979deb887ec3834a45f93c393ab3cde34601786f24ac306289baf0ffc3bd03b"
+    },
+    {
+      "repo": "polakowo/vectorbt",
+      "commit": "dd8eb3a3fe9ed918b1cdaf177455759ae4ac68cb",
+      "path": "LICENSE.md",
+      "url": "https://github.com/polakowo/vectorbt/blob/dd8eb3a3fe9ed918b1cdaf177455759ae4ac68cb/LICENSE.md",
+      "sha256": "a914859a115b70e80956a3cbd613139ad74c04e5d1bd38da8bcc16725822ec84"
+    },
+    {
+      "repo": "polakowo/vectorbt",
+      "commit": "dd8eb3a3fe9ed918b1cdaf177455759ae4ac68cb",
+      "path": "vectorbt/portfolio/nb.py",
+      "url": "https://github.com/polakowo/vectorbt/blob/dd8eb3a3fe9ed918b1cdaf177455759ae4ac68cb/vectorbt/portfolio/nb.py",
+      "sha256": "3bc4fcbd9871dcd20fe49037484253d6fe200b88042a942ff98e75bb83ec46c7"
+    },
+    {
+      "repo": "polakowo/vectorbt",
+      "commit": "dd8eb3a3fe9ed918b1cdaf177455759ae4ac68cb",
+      "path": "tests/test_portfolio.py",
+      "url": "https://github.com/polakowo/vectorbt/blob/dd8eb3a3fe9ed918b1cdaf177455759ae4ac68cb/tests/test_portfolio.py",
+      "sha256": "d49041e4eabe9141ea92b5d8037470a44e62790eb3ac230439dde0a86e2d6cbb"
+    },
+    {
+      "repo": "freqtrade/freqtrade",
+      "commit": "0db79d391f646eafbdf3c0976dd55dc90b296522",
+      "path": "LICENSE",
+      "url": "https://github.com/freqtrade/freqtrade/blob/0db79d391f646eafbdf3c0976dd55dc90b296522/LICENSE",
+      "sha256": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2"
+    },
+    {
+      "repo": "freqtrade/freqtrade",
+      "commit": "0db79d391f646eafbdf3c0976dd55dc90b296522",
+      "path": "freqtrade/optimize/backtesting.py",
+      "url": "https://github.com/freqtrade/freqtrade/blob/0db79d391f646eafbdf3c0976dd55dc90b296522/freqtrade/optimize/backtesting.py",
+      "sha256": "1b185dfe44e5b0cbab0f2e35fae8c6f545c9aa987d556cd019bea1bd8880bfd1"
+    },
+    {
+      "repo": "freqtrade/freqtrade",
+      "commit": "0db79d391f646eafbdf3c0976dd55dc90b296522",
+      "path": "freqtrade/optimize/analysis/lookahead.py",
+      "url": "https://github.com/freqtrade/freqtrade/blob/0db79d391f646eafbdf3c0976dd55dc90b296522/freqtrade/optimize/analysis/lookahead.py",
+      "sha256": "25b02b2d4f6e4317d8855b01976a3fef112e56280b7a33954634ed4dc51e2cca"
+    },
+    {
+      "repo": "freqtrade/freqtrade",
+      "commit": "0db79d391f646eafbdf3c0976dd55dc90b296522",
+      "path": "tests/optimize/test_lookahead_analysis.py",
+      "url": "https://github.com/freqtrade/freqtrade/blob/0db79d391f646eafbdf3c0976dd55dc90b296522/tests/optimize/test_lookahead_analysis.py",
+      "sha256": "2fee121dbc6dc88fdacb1b63d13861b7c18869846b13b0fad55fb72d28828482"
+    },
+    {
+      "repo": "pmorissette/bt",
+      "commit": "3adebef0316c5165ee0fb1fb27b2ec9866c30e3c",
+      "path": "LICENSE",
+      "url": "https://github.com/pmorissette/bt/blob/3adebef0316c5165ee0fb1fb27b2ec9866c30e3c/LICENSE",
+      "sha256": "8711471566d722d55eca3f09196f342b2ee2960616e68127ec2a17b39ff99949"
+    },
+    {
+      "repo": "pmorissette/bt",
+      "commit": "3adebef0316c5165ee0fb1fb27b2ec9866c30e3c",
+      "path": "bt/backtest.py",
+      "url": "https://github.com/pmorissette/bt/blob/3adebef0316c5165ee0fb1fb27b2ec9866c30e3c/bt/backtest.py",
+      "sha256": "407e955d268cc15a504371a35a4d78897dcf55dcff1e8abde440c80bd5b23dbe"
+    },
+    {
+      "repo": "pmorissette/bt",
+      "commit": "3adebef0316c5165ee0fb1fb27b2ec9866c30e3c",
+      "path": "bt/core.py",
+      "url": "https://github.com/pmorissette/bt/blob/3adebef0316c5165ee0fb1fb27b2ec9866c30e3c/bt/core.py",
+      "sha256": "2cb526ca87c31e837173355abd5db0a067b644ee5a891b391c2806e77aff7076"
+    },
+    {
+      "repo": "pmorissette/bt",
+      "commit": "3adebef0316c5165ee0fb1fb27b2ec9866c30e3c",
+      "path": "tests/test_core.py",
+      "url": "https://github.com/pmorissette/bt/blob/3adebef0316c5165ee0fb1fb27b2ec9866c30e3c/tests/test_core.py",
+      "sha256": "022e119c86bb54d388247a0ab8f988cd23e5fe78ba32e619fa52cf2f7adaf7c0"
+    },
+    {
+      "repo": "nautechsystems/nautilus_trader",
+      "commit": "d9669fc23a9499b337e2be4e62d7a10e7db9610d",
+      "path": "crates/execution/src/models/fee.rs",
+      "url": "https://github.com/nautechsystems/nautilus_trader/blob/d9669fc23a9499b337e2be4e62d7a10e7db9610d/crates/execution/src/models/fee.rs",
+      "sha256": "2db903c1f7fece4d632b93d533809b0fa938ce9c211574867ff01731e6a46810"
+    },
+    {
+      "repo": "nautechsystems/nautilus_trader",
+      "commit": "d9669fc23a9499b337e2be4e62d7a10e7db9610d",
+      "path": "crates/execution/src/models/fill.rs",
+      "url": "https://github.com/nautechsystems/nautilus_trader/blob/d9669fc23a9499b337e2be4e62d7a10e7db9610d/crates/execution/src/models/fill.rs",
+      "sha256": "592ce9282c4fcb21eac4663618cf5cfda3e983463e6428045e06bd90a01c6727"
+    },
+    {
+      "repo": "nautechsystems/nautilus_trader",
+      "commit": "d9669fc23a9499b337e2be4e62d7a10e7db9610d",
+      "path": "crates/execution/src/matching_engine/settlement.rs",
+      "url": "https://github.com/nautechsystems/nautilus_trader/blob/d9669fc23a9499b337e2be4e62d7a10e7db9610d/crates/execution/src/matching_engine/settlement.rs",
+      "sha256": "18e1505fca899f4adac6ef4f8b80ba5ce63c31900d2d537f5e23031b03cde4ce"
+    },
+    {
+      "repo": "nautechsystems/nautilus_trader",
+      "commit": "d9669fc23a9499b337e2be4e62d7a10e7db9610d",
+      "path": "docs/concepts/backtesting/fill-prices-and-matching.md",
+      "url": "https://github.com/nautechsystems/nautilus_trader/blob/d9669fc23a9499b337e2be4e62d7a10e7db9610d/docs/concepts/backtesting/fill-prices-and-matching.md",
+      "sha256": "2e37a28bb423f310ba21867dbf349bc08a8e2f3c7ac1e1d96fff4031d8ba88de"
+    },
+    {
+      "repo": "microsoft/qlib",
+      "commit": "54355232463878d2eebb91fe0ee5fa7fa1f5976c",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/microsoft/qlib/54355232463878d2eebb91fe0ee5fa7fa1f5976c/LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "repo": "microsoft/qlib",
+      "commit": "54355232463878d2eebb91fe0ee5fa7fa1f5976c",
+      "path": "qlib/contrib/evaluate.py",
+      "url": "https://raw.githubusercontent.com/microsoft/qlib/54355232463878d2eebb91fe0ee5fa7fa1f5976c/qlib/contrib/evaluate.py",
+      "sha256": "f4440ebaab095d7f239f5ea53fc8d9f686a304262a10223afb07d93b9d1da636"
+    },
+    {
+      "repo": "microsoft/qlib",
+      "commit": "54355232463878d2eebb91fe0ee5fa7fa1f5976c",
+      "path": "qlib/backtest/exchange.py",
+      "url": "https://raw.githubusercontent.com/microsoft/qlib/54355232463878d2eebb91fe0ee5fa7fa1f5976c/qlib/backtest/exchange.py",
+      "sha256": "4affc13ab45af464cfb5b55663b80b2fc3dadb4769045d34d0fd218f760d7e08"
+    },
+    {
+      "repo": "microsoft/qlib",
+      "commit": "54355232463878d2eebb91fe0ee5fa7fa1f5976c",
+      "path": "qlib/workflow/record_temp.py",
+      "url": "https://raw.githubusercontent.com/microsoft/qlib/54355232463878d2eebb91fe0ee5fa7fa1f5976c/qlib/workflow/record_temp.py",
+      "sha256": "80eacd668e6f8475995ff67f115766c4c241a469b03419fa82a4bb41482e13de"
+    },
+    {
+      "repo": "microsoft/qlib",
+      "commit": "54355232463878d2eebb91fe0ee5fa7fa1f5976c",
+      "path": "qlib/data/dataset/handler.py",
+      "url": "https://raw.githubusercontent.com/microsoft/qlib/54355232463878d2eebb91fe0ee5fa7fa1f5976c/qlib/data/dataset/handler.py",
+      "sha256": "bb2407ca6c4a73ad53fb12311ccae34a29792ee4c45d93c99b427779c43011b3"
+    },
+    {
+      "repo": "skfolio/skfolio",
+      "commit": "9effd863f19ec969ee93f654db1e8770343a4215",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/skfolio/skfolio/9effd863f19ec969ee93f654db1e8770343a4215/LICENSE",
+      "sha256": "07b8dfceb7b319e5145e7b1594d2cdaf94d924d78166d28951d4b360a4dc5844"
+    },
+    {
+      "repo": "skfolio/skfolio",
+      "commit": "9effd863f19ec969ee93f654db1e8770343a4215",
+      "path": "src/skfolio/model_selection/_walk_forward.py",
+      "url": "https://raw.githubusercontent.com/skfolio/skfolio/9effd863f19ec969ee93f654db1e8770343a4215/src/skfolio/model_selection/_walk_forward.py",
+      "sha256": "23f8e3e0f576895d3ad37ff69faee01b150401263d168561ca69db2637b82414"
+    },
+    {
+      "repo": "skfolio/skfolio",
+      "commit": "9effd863f19ec969ee93f654db1e8770343a4215",
+      "path": "src/skfolio/optimization/convex/_mean_risk.py",
+      "url": "https://raw.githubusercontent.com/skfolio/skfolio/9effd863f19ec969ee93f654db1e8770343a4215/src/skfolio/optimization/convex/_mean_risk.py",
+      "sha256": "ddf187959d8675c267859daa217e38fcdda8af2eda36df4db4229514a1c637ea"
+    },
+    {
+      "repo": "robertmartin8/PyPortfolioOpt",
+      "commit": "a6638d2e06dae6f444fd022cfd4b3c528902a85b",
+      "path": "pypfopt/efficient_frontier/efficient_cvar.py",
+      "url": "https://raw.githubusercontent.com/robertmartin8/PyPortfolioOpt/a6638d2e06dae6f444fd022cfd4b3c528902a85b/pypfopt/efficient_frontier/efficient_cvar.py",
+      "sha256": "1aa13453d7ffad350a4717b3aed5a75ca369c663a4457e9ddc6b7a4c38aae1dd"
+    },
+    {
+      "repo": "robertmartin8/PyPortfolioOpt",
+      "commit": "a6638d2e06dae6f444fd022cfd4b3c528902a85b",
+      "path": "pypfopt/risk_models.py",
+      "url": "https://raw.githubusercontent.com/robertmartin8/PyPortfolioOpt/a6638d2e06dae6f444fd022cfd4b3c528902a85b/pypfopt/risk_models.py",
+      "sha256": "fba14f75f40023e3a7c4f8273073f3e6cc0c6c5c9fc3b7fc917c06c69e10544a"
+    },
+    {
+      "repo": "robertmartin8/PyPortfolioOpt",
+      "commit": "a6638d2e06dae6f444fd022cfd4b3c528902a85b",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/robertmartin8/PyPortfolioOpt/a6638d2e06dae6f444fd022cfd4b3c528902a85b/LICENSE",
+      "sha256": "0e401d63a7b31bde363ca577a2537af1c345fccbf532edc55cb589f568b2a883"
+    }
+  ],
+  "acquisition_failures": [
+    {
+      "repo": "robertmartin8/PyPortfolioOpt",
+      "commit": "a6638d2e06dae6f444fd022cfd4b3c528902a85b",
+      "path": "LICENSE.txt",
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}

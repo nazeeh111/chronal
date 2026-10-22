@@ -1,0 +1,46 @@
+{
+  "assets": [
+    "SYN_A",
+    "SYN_B",
+    "SYN_C",
+    "SYN_D"
+  ],
+  "candidate_sha256": "715c2490c37d0fe27fa2ea9e58253e745a5b25d8dfa42553af8e12dd3622d0d5",
+  "chronal_version": "0.1.0",
+  "code_sha256": "9723bcd2bb63e53f128dad670f4e8d5972bef9a92634cf52b27476f455c800d7",
+  "data_fingerprint": "540b31e753d7759aee5c044a8b9d37a55914f07daeba892b68583d16ebdc1037",
+  "development_start": 254,
+  "environment": {
+    "numpy": "2.5.4",
+    "python": "3.14.7"
+  },
+  "execution": {
+    "commission_bps": 5.0,
+    "delay_sessions": 0,
+    "drawdown_stop": 0.25,
+    "initial_cash": 100000.0,
+    "max_participation": 0.01,
+    "slippage_bps": 3.0,
+    "spread_bps": 4.0
+  },
+  "holdout_start": 630,
+  "input_sha256": "f7521b8edb9c74a1096775bba6d0972b802afffe14bcbd9429253156b5856344",
+  "limitations": [
+    "Local hashes detect changes relative to a manifest; they are not signatures or independent timestamps.",
+    "The operator can inspect the input CSV or create another run. This is an explicit holdout boundary, not a tamper-proof vault.",
+    "Candidate count covers this plan only. External and previous manual trials are not discovered automatically.",
+    "Timestamp declarations and data provenance are supplied by the importer, not certified by Chronal."
+  ],
+  "metadata_sha256": "cfced437e50a031db06a5f3e9f49c01e09c61ecd127e6a0865b897e712140b61",
+  "registered_candidates": 4,
+  "research": {
+    "gap": 2,
+    "holdout_size": 126,
+    "seed": 17,
+    "test_size": 63,
+    "train_size": 252
+  },
+  "schema_version": 1,
+  "selection_rule": "highest development zero-risk-free-rate Sharpe; lexical tie break; undefined ranks last",
+  "sessions": 756
+}

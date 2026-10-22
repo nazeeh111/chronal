@@ -1,0 +1,22 @@
+[
+  {
+    "name": "cautious_trend",
+    "kind": "trend",
+    "lookback": 90,
+    "top_k": 4,
+    "rebalance_every": 10,
+    "max_weight": 0.35,
+    "target_vol": 0.1,
+    "ridge_alpha": 10.0
+  },
+  {
+    "name": "ridge_slow",
+    "kind": "ridge",
+    "lookback": 40,
+    "top_k": 2,
+    "rebalance_every": 10,
+    "max_weight": 0.4,
+    "target_vol": 0.1,
+    "ridge_alpha": 100.0
+  }
+]

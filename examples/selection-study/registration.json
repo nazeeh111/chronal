@@ -1,0 +1,94 @@
+{
+  "candidates": [
+    {
+      "kind": "equal_weight",
+      "lookback": 20,
+      "max_weight": 0.5,
+      "name": "equal",
+      "rebalance_every": 5,
+      "ridge_alpha": 10.0,
+      "target_vol": 0.12,
+      "top_k": 100
+    },
+    {
+      "kind": "momentum",
+      "lookback": 20,
+      "max_weight": 0.5,
+      "name": "momentum20",
+      "rebalance_every": 5,
+      "ridge_alpha": 10.0,
+      "target_vol": 0.12,
+      "top_k": 2
+    },
+    {
+      "kind": "momentum",
+      "lookback": 60,
+      "max_weight": 0.5,
+      "name": "momentum60",
+      "rebalance_every": 5,
+      "ridge_alpha": 10.0,
+      "target_vol": 0.12,
+      "top_k": 2
+    },
+    {
+      "kind": "trend",
+      "lookback": 60,
+      "max_weight": 0.5,
+      "name": "trend60",
+      "rebalance_every": 5,
+      "ridge_alpha": 10.0,
+      "target_vol": 0.12,
+      "top_k": 100
+    },
+    {
+      "kind": "ridge",
+      "lookback": 20,
+      "max_weight": 0.5,
+      "name": "ridge20",
+      "rebalance_every": 5,
+      "ridge_alpha": 10.0,
+      "target_vol": 0.12,
+      "top_k": 2
+    }
+  ],
+  "code_sha256": "9723bcd2bb63e53f128dad670f4e8d5972bef9a92634cf52b27476f455c800d7",
+  "environment": {
+    "numpy": "2.5.4",
+    "python": "3.14.7"
+  },
+  "execution": {
+    "commission_bps": 5.0,
+    "delay_sessions": 0,
+    "drawdown_stop": 0.25,
+    "initial_cash": 100000.0,
+    "max_participation": 0.01,
+    "slippage_bps": 3.0,
+    "spread_bps": 4.0
+  },
+  "hypothesis_status": "prospective engineering demonstration; not an alpha or novelty claim",
+  "limitations": "Not real markets. Replications share one hand-designed generator. No external timestamp or search-history enforcement.",
+  "primary_observation": "selected minus baseline total return on holdout; descriptive across fixed synthetic generator seeds",
+  "question": "How does the development-selected candidate compare with a fixed baseline on unseen synthetic sessions?",
+  "research": {
+    "gap": 2,
+    "holdout_size": 126,
+    "seed": 17,
+    "test_size": 63,
+    "train_size": 252
+  },
+  "seeds": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111
+  ],
+  "sessions": 756
+}

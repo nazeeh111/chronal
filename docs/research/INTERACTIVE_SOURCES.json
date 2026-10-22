@@ -1,0 +1,66 @@
+[
+  {
+    "repo": "tradingview/lightweight-charts",
+    "commit": "c9ec1cec25583a0200f3c85ad9019d19c1d65f97",
+    "path": "website/tutorials/how_to/set-crosshair-position.mdx",
+    "url": "https://github.com/tradingview/lightweight-charts/blob/c9ec1cec25583a0200f3c85ad9019d19c1d65f97/website/tutorials/how_to/set-crosshair-position.mdx",
+    "local": "work/interactive-research/lightweight-charts-website_tutorials_how_to_set-crosshair-position.mdx",
+    "sha256": "04c65c4b9d27c07e11f2f5f545d3f92498d4eadcf771134dc589d7d45cf7e032"
+  },
+  {
+    "repo": "tradingview/lightweight-charts",
+    "commit": "c9ec1cec25583a0200f3c85ad9019d19c1d65f97",
+    "path": "src/api/itime-scale-api.ts",
+    "url": "https://github.com/tradingview/lightweight-charts/blob/c9ec1cec25583a0200f3c85ad9019d19c1d65f97/src/api/itime-scale-api.ts",
+    "local": "work/interactive-research/lightweight-charts-src_api_itime-scale-api.ts",
+    "sha256": "7872d4a95abe5d12299e6fcc714db089957750fd32f640e316c132916fb67484"
+  },
+  {
+    "repo": "quantopian/pyfolio",
+    "commit": "4b901f6d73aa02ceb6d04b7d83502e5c6f2e81aa",
+    "path": "pyfolio/timeseries.py",
+    "url": "https://github.com/quantopian/pyfolio/blob/4b901f6d73aa02ceb6d04b7d83502e5c6f2e81aa/pyfolio/timeseries.py",
+    "local": "work/interactive-research/pyfolio-pyfolio_timeseries.py",
+    "sha256": "c7e06cdf5c174cc9683800120f134d025b04903660ae3eef279b525c8b4149e3"
+  },
+  {
+    "repo": "quantopian/pyfolio",
+    "commit": "4b901f6d73aa02ceb6d04b7d83502e5c6f2e81aa",
+    "path": "pyfolio/plotting.py",
+    "url": "https://github.com/quantopian/pyfolio/blob/4b901f6d73aa02ceb6d04b7d83502e5c6f2e81aa/pyfolio/plotting.py",
+    "local": "work/interactive-research/pyfolio-pyfolio_plotting.py",
+    "sha256": "55e00b5f6ad31f9d25b21f07f907d000cfafb200a7a61349b75244dea63b53ca"
+  },
+  {
+    "repo": "quantopian/pyfolio",
+    "commit": "4b901f6d73aa02ceb6d04b7d83502e5c6f2e81aa",
+    "path": "pyfolio/pos.py",
+    "url": "https://github.com/quantopian/pyfolio/blob/4b901f6d73aa02ceb6d04b7d83502e5c6f2e81aa/pyfolio/pos.py",
+    "local": "work/interactive-research/pyfolio-pyfolio_pos.py",
+    "sha256": "3513dbbb990f4366713fa8e33a5fb7403bdc6099996b822d912400327634dbc4"
+  },
+  {
+    "repo": "tradingview/lightweight-charts",
+    "commit": "c9ec1cec25583a0200f3c85ad9019d19c1d65f97",
+    "path": "website/tutorials/how_to/set-crosshair-position-syncing.js",
+    "url": "https://github.com/tradingview/lightweight-charts/blob/c9ec1cec25583a0200f3c85ad9019d19c1d65f97/website/tutorials/how_to/set-crosshair-position-syncing.js",
+    "local": "work/interactive-research/lightweight-charts-website_tutorials_how_to_set-crosshair-position-syncing.js",
+    "sha256": "edc71d311e9b6390035fdc37e31b8735358f964f86685a356cd627658866a0f9"
+  },
+  {
+    "repo": "tradingview/lightweight-charts",
+    "commit": "c9ec1cec25583a0200f3c85ad9019d19c1d65f97",
+    "path": "LICENSE",
+    "url": "https://github.com/tradingview/lightweight-charts/blob/c9ec1cec25583a0200f3c85ad9019d19c1d65f97/LICENSE",
+    "local": "work/interactive-research/lightweight-charts-LICENSE",
+    "sha256": "70c9d5382506dd184465425c08a99ad9bd6d9ac1313c252968ba0b585e5ef823"
+  },
+  {
+    "repo": "tradingview/lightweight-charts",
+    "commit": "c9ec1cec25583a0200f3c85ad9019d19c1d65f97",
+    "path": "NOTICE",
+    "url": "https://github.com/tradingview/lightweight-charts/blob/c9ec1cec25583a0200f3c85ad9019d19c1d65f97/NOTICE",
+    "local": "work/interactive-research/lightweight-charts-NOTICE",
+    "sha256": "f76c6afab94884448f0426e30d6e9d555ca7247894cd3484e477d2f87513036e"
+  }
+]

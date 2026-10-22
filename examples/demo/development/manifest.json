@@ -1,0 +1,12 @@
+{
+  "files": {
+    "ai-review-packet.json": "8128c590dc58c539d57e6f752c34b2289bffda3715153f48fef97232e42722e8",
+    "equity.csv": "4fc9edba88eefb85fe4b9baab0eb6f50a46cfaae97ee45ff3675ce99677a735a",
+    "fills.csv": "c643d7e5782dc120d68bbb2b84b58dc4c1a777e2dd8d47d3814c45c8d1bfb5a3",
+    "report.html": "778e61d5364f1b371f9be28f607fe4d6fde28e59d3f5020ce37957754c4e5daa",
+    "results.json": "2c94ddc4593f3526622c0dccc3b372135c8ec5cf1ca3dadfe822a72c894175c9",
+    "selection.json": "a1579941fb6efc8f76846597bf314854ea500b23fcf7fefe08ec9e2a6194ca66"
+  },
+  "parent_plan_sha256": "7a5f3e86f4b1b64882a2e90a3a784525160be39fe57fc473cf8ce98464318190",
+  "schema_version": 1
+}

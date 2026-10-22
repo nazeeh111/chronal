@@ -1,0 +1,14 @@
+{
+  "plan_sha256": "7a5f3e86f4b1b64882a2e90a3a784525160be39fe57fc473cf8ce98464318190",
+  "selection_rule": "highest development zero-risk-free-rate Sharpe; lexical tie break; undefined ranks last",
+  "strategy": {
+    "kind": "trend",
+    "lookback": 60,
+    "max_weight": 0.5,
+    "name": "trend60",
+    "rebalance_every": 5,
+    "ridge_alpha": 10.0,
+    "target_vol": 0.12,
+    "top_k": 100
+  }
+}

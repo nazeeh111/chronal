@@ -1,0 +1,10 @@
+{
+  "files": {
+    "candidates.json": "715c2490c37d0fe27fa2ea9e58253e745a5b25d8dfa42553af8e12dd3622d0d5",
+    "input.csv": "f7521b8edb9c74a1096775bba6d0972b802afffe14bcbd9429253156b5856344",
+    "metadata.json": "cfced437e50a031db06a5f3e9f49c01e09c61ecd127e6a0865b897e712140b61",
+    "plan.json": "7a5f3e86f4b1b64882a2e90a3a784525160be39fe57fc473cf8ce98464318190"
+  },
+  "parent_plan_sha256": null,
+  "schema_version": 1
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "kind": "equal_weight",
+    "lookback": 20,
+    "max_weight": 0.5,
+    "name": "equal",
+    "rebalance_every": 5,
+    "ridge_alpha": 10.0,
+    "target_vol": 0.12,
+    "top_k": 100
+  },
+  {
+    "kind": "momentum",
+    "lookback": 20,
+    "max_weight": 0.5,
+    "name": "momentum20",
+    "rebalance_every": 5,
+    "ridge_alpha": 10.0,
+    "target_vol": 0.12,
+    "top_k": 2
+  },
+  {
+    "kind": "momentum",
+    "lookback": 60,
+    "max_weight": 0.5,
+    "name": "momentum60",
+    "rebalance_every": 5,
+    "ridge_alpha": 10.0,
+    "target_vol": 0.12,
+    "top_k": 2
+  },
+  {
+    "kind": "trend",
+    "lookback": 60,
+    "max_weight": 0.5,
+    "name": "trend60",
+    "rebalance_every": 5,
+    "ridge_alpha": 10.0,
+    "target_vol": 0.12,
+    "top_k": 100
+  },
+  {
+    "kind": "ridge",
+    "lookback": 20,
+    "max_weight": 0.5,
+    "name": "ridge20",
+    "rebalance_every": 5,
+    "ridge_alpha": 10.0,
+    "target_vol": 0.12,
+    "top_k": 2
+  }
+]

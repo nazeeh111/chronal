@@ -1,0 +1,9 @@
+{
+  "availability": "all complete bars available at their recorded close",
+  "calendar": "weekday-only UTC sessions; no real exchange holiday calendar",
+  "prices": "unadjusted synthetic prices; no corporate actions or dividends",
+  "seed": "17",
+  "source": "Chronal deterministic synthetic fixture",
+  "synthetic": "true",
+  "universe": "fixed fictional assets; no membership selection or survivorship claim"
+}

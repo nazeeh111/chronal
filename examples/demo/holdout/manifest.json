@@ -1,0 +1,10 @@
+{
+  "files": {
+    "equity.csv": "45d13b06039f4f3697d2e804e87070071c34afc133db11b9875145363f6a7fcd",
+    "fills.csv": "e7bfafc2603cfc4531540a637e5f57458f518034860f7853e14d0969272dfde2",
+    "report.html": "32a1566a3858502b409975eda211f49b7f787b224e0e9b52e79af307960bf255",
+    "results.json": "568b09cef8988db607b25179268b0961450cdbcc4eac85b355cc70c9b3889f1b"
+  },
+  "parent_plan_sha256": "7a5f3e86f4b1b64882a2e90a3a784525160be39fe57fc473cf8ce98464318190",
+  "schema_version": 1
+}

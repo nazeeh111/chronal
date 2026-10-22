@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="920" viewBox="0 0 1600 920" role="img" aria-labelledby="figure-title figure-desc">
+<title id="figure-title">Chronal information and execution clocks</title>
+<desc id="figure-desc">The default split fits on sessions0 through251, purges252 and253, then tests254 onward. A close-t decision fills at a later open, never the same close. Delayed publication blocks a close-time decision and cannot be retroactively used at that cutoff.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0L8 4L0 8Z" fill="#566b6c"/></marker></defs>
+<rect width="1600" height="920" fill="white"/>
+<text x="64" y="47" fill="#237568" font-family="monospace" font-size="15" font-weight="400" text-anchor="start">CHRONAL / FIGURE 02</text>
+<text x="64" y="99" fill="#183335" font-family="Georgia,serif" font-size="39" font-weight="400" text-anchor="start">Time is part of the model.</text>
+<text x="64" y="134" fill="#566b6c" font-family="Arial,sans-serif" font-size="20" font-weight="400" text-anchor="start">Illustrative timing schematic; widths are not proportional to elapsed time.</text>
+<text x="64" y="200" fill="#237568" font-family="Arial,sans-serif" font-size="17" font-weight="600" text-anchor="start">A / CHRONOLOGICAL FIT</text>
+<rect x="64" y="227" width="550" height="98" rx="9" fill="#edf5f1" stroke="#cad6d5" stroke-width="1.6"/>
+<text x="82" y="262" fill="#183335" font-family="Arial,sans-serif" font-size="21" font-weight="600" text-anchor="start">TRAIN</text>
+<text x="82" y="297" fill="#183335" font-family="monospace" font-size="22" font-weight="400" text-anchor="start">[0,252)</text>
+<rect x="640" y="227" width="184" height="98" rx="9" fill="#f8eee8" stroke="#cad6d5" stroke-width="1.6"/>
+<text x="658" y="262" fill="#183335" font-family="Arial,sans-serif" font-size="21" font-weight="600" text-anchor="start">PURGE</text>
+<text x="658" y="297" fill="#183335" font-family="monospace" font-size="22" font-weight="400" text-anchor="start">252,253</text>
+<rect x="850" y="227" width="374" height="98" rx="9" fill="#f4f1fa" stroke="#cad6d5" stroke-width="1.6"/>
+<text x="868" y="262" fill="#183335" font-family="Arial,sans-serif" font-size="21" font-weight="600" text-anchor="start">FIRST TEST</text>
+<text x="868" y="297" fill="#183335" font-family="monospace" font-size="22" font-weight="400" text-anchor="start">[254,317)</text>
+<rect x="1250" y="227" width="286" height="98" rx="9" fill="#fcf4e7" stroke="#cad6d5" stroke-width="1.6"/>
+<text x="1268" y="262" fill="#183335" font-family="Arial,sans-serif" font-size="21" font-weight="600" text-anchor="start">HOLDOUT</text>
+<text x="1268" y="297" fill="#183335" font-family="monospace" font-size="22" font-weight="400" text-anchor="start">[630,756)</text>
+<text x="64" y="365" fill="#566b6c" font-family="Arial,sans-serif" font-size="20" font-weight="400" text-anchor="start">Ridge feature at close k → label open[k+2] / open[k+1] −1; every label endpoint is before the exclusive fit cutoff.</text>
+<text x="64" y="404" fill="#566b6c" font-family="Arial,sans-serif" font-size="20" font-weight="400" text-anchor="start">Later folds expand training using earlier observations. The candidate specification stays frozen during the holdout.</text>
+<text x="64" y="480" fill="#237568" font-family="Arial,sans-serif" font-size="17" font-weight="600" text-anchor="start">B / DECISION AND FILL</text>
+<g id="observed-close"><title>Close t</title>
+<rect x="64" y="510" width="360" height="120" rx="9" fill="#f0f7f4" stroke="#cad6d5" stroke-width="1.6"/>
+<path d="M65 528V612" stroke="#237568" stroke-width="4"/>
+<text x="86" y="545" fill="#183335" font-family="Arial,sans-serif" font-size="24" font-weight="600" text-anchor="start">Close t</text>
+<text x="86" y="575" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Required bars have arrived</text>
+<text x="86" y="600" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Propose target weights</text>
+</g>
+<g id="eligible-open"><title>Open t+1 (+ delay)</title>
+<rect x="620" y="510" width="410" height="120" rx="9" fill="#f0f7f4" stroke="#cad6d5" stroke-width="1.6"/>
+<path d="M621 528V612" stroke="#237568" stroke-width="4"/>
+<text x="642" y="545" fill="#183335" font-family="Arial,sans-serif" font-size="24" font-weight="600" text-anchor="start">Open t+1 (+ delay)</text>
+<text x="642" y="575" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Resolve cash-aware quantities</text>
+<text x="642" y="600" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Adverse prices + commission</text>
+</g>
+<g id="realized-mark"><title>Fill-session close</title>
+<rect x="1190" y="510" width="346" height="120" rx="9" fill="#f0f7f4" stroke="#cad6d5" stroke-width="1.6"/>
+<path d="M1191 528V612" stroke="#237568" stroke-width="4"/>
+<text x="1212" y="545" fill="#183335" font-family="Arial,sans-serif" font-size="24" font-weight="600" text-anchor="start">Fill-session close</text>
+<text x="1212" y="575" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Ex-post portfolio NAV</text>
+<text x="1212" y="600" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Publication-aware risk state</text>
+</g>
+<path id="edge-close-open" d="M424 570H620" fill="none" stroke="#566b6c" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path id="edge-open-mark" d="M1030 570H1190" fill="none" stroke="#566b6c" stroke-width="2.2" marker-end="url(#arrow)"/>
+<text x="521" y="542" fill="#ac7225" font-family="Arial,sans-serif" font-size="17" font-weight="400" text-anchor="middle">no same-close fill</text>
+<text x="64" y="708" fill="#237568" font-family="Arial,sans-serif" font-size="17" font-weight="600" text-anchor="start">C / LATE PUBLICATION</text>
+<rect x="64" y="735" width="1472" height="115" rx="9" fill="#fcf7f4" stroke="#cad6d5" stroke-width="1.6"/>
+<text x="88" y="773" fill="#183335" font-family="Arial,sans-serif" font-size="23" font-weight="600" text-anchor="start">If a required bar arrives after close t: no new target at that cutoff; existing holdings remain.</text>
+<text x="88" y="810" fill="#566b6c" font-family="Arial,sans-serif" font-size="20" font-weight="400" text-anchor="start">A later arrival cannot rewrite the earlier decision. Risk uses recorded equity snapshots only once their marking bars are published.</text>
+<text x="64" y="890" fill="#566b6c" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start">Opening-price sizing and realized daily-volume capacity remain declared approximations, not a reconstructed opening auction.</text>
+</svg>

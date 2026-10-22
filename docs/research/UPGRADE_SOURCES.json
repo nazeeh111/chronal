@@ -1,0 +1,96 @@
+[
+  {
+    "repo": "cvxgrp/cvxportfolio",
+    "sha": "351c782b9b8b395c1a5f886b77e0d55f1bc9396e",
+    "date": "2026-04-27T14:01:55Z",
+    "sources": [
+      {
+        "path": "cvxportfolio/costs.py",
+        "url": "https://raw.githubusercontent.com/cvxgrp/cvxportfolio/351c782b9b8b395c1a5f886b77e0d55f1bc9396e/cvxportfolio/costs.py",
+        "file": "work/research-upgrade/cvxportfolio/costs.py",
+        "sha256": "04c0940134d90e98ff9c8dee2c6fd7071977579c262a85b582fb4b6db0bf1aef"
+      },
+      {
+        "path": "cvxportfolio/simulator.py",
+        "url": "https://raw.githubusercontent.com/cvxgrp/cvxportfolio/351c782b9b8b395c1a5f886b77e0d55f1bc9396e/cvxportfolio/simulator.py",
+        "file": "work/research-upgrade/cvxportfolio/simulator.py",
+        "sha256": "9e60920b4a5eaa0b32d7c3b0df30add13f27269a103c665cb338c878d6e9d3f3"
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://raw.githubusercontent.com/cvxgrp/cvxportfolio/351c782b9b8b395c1a5f886b77e0d55f1bc9396e/LICENSE",
+        "file": "work/research-upgrade/cvxportfolio/LICENSE",
+        "sha256": "e57f1c320b8cf8798a7d2ff83a6f9e06a33a03585f6e065fea97f1d86db84052"
+      }
+    ]
+  },
+  {
+    "repo": "ranaroussi/quantstats",
+    "sha": "9ef4c6d0a4ffe7831f6ebba6a5824fd33a90c05a",
+    "date": "2026-09-27T19:38:37Z",
+    "sources": [
+      {
+        "path": "quantstats/stats.py",
+        "url": "https://raw.githubusercontent.com/ranaroussi/quantstats/9ef4c6d0a4ffe7831f6ebba6a5824fd33a90c05a/quantstats/stats.py",
+        "file": "work/research-upgrade/quantstats/stats.py",
+        "sha256": "07b3ceeec1a06f90fddb33ec6b089f7f8dbfa2a4cd6b6d6affb7e0acd0f51503"
+      },
+      {
+        "path": "quantstats/reports.py",
+        "url": "https://raw.githubusercontent.com/ranaroussi/quantstats/9ef4c6d0a4ffe7831f6ebba6a5824fd33a90c05a/quantstats/reports.py",
+        "file": "work/research-upgrade/quantstats/reports.py",
+        "sha256": "254e2541e6b2f3bb03c01c2cfb9728aaaef4892fbabf4efb0687914f373daf51"
+      },
+      {
+        "path": "LICENSE.txt",
+        "url": "https://raw.githubusercontent.com/ranaroussi/quantstats/9ef4c6d0a4ffe7831f6ebba6a5824fd33a90c05a/LICENSE.txt",
+        "file": "work/research-upgrade/quantstats/LICENSE.txt",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      }
+    ]
+  },
+  {
+    "repo": "dcajasn/Riskfolio-Lib",
+    "sha": "7b1b26ac9760974c12ecefe290a9d3bd37b66b7a",
+    "date": "2026-10-04T20:35:18Z",
+    "sources": [
+      {
+        "path": "riskfolio/src/RiskFunctions.py",
+        "url": "https://raw.githubusercontent.com/dcajasn/Riskfolio-Lib/7b1b26ac9760974c12ecefe290a9d3bd37b66b7a/riskfolio/src/RiskFunctions.py",
+        "file": "work/research-upgrade/riskfolio/RiskFunctions.py",
+        "sha256": "2156737cc64527f439b172f0a448b6aa48fbfd1f0b1710b02454dff722ceb7c7"
+      },
+      {
+        "path": "riskfolio/src/Portfolio.py",
+        "url": "https://raw.githubusercontent.com/dcajasn/Riskfolio-Lib/7b1b26ac9760974c12ecefe290a9d3bd37b66b7a/riskfolio/src/Portfolio.py",
+        "file": "work/research-upgrade/riskfolio/Portfolio.py",
+        "sha256": "0657ce3e2b481a368cd423afecab7e6418aeb3e720429299b1b35a4c59bad26f"
+      },
+      {
+        "path": "LICENSE.txt",
+        "url": "https://raw.githubusercontent.com/dcajasn/Riskfolio-Lib/7b1b26ac9760974c12ecefe290a9d3bd37b66b7a/LICENSE.txt",
+        "file": "work/research-upgrade/riskfolio/LICENSE.txt",
+        "sha256": "7f7a68d261604e432e818993f92b74b636c632e31f207730dd189267044aa5e6"
+      }
+    ]
+  },
+  {
+    "repo": "stefan-jansen/empyrical-reloaded",
+    "sha": "a54620df2077f56e8ef126d9b230b2ec2e1fadf6",
+    "date": "2026-10-17T21:26:19Z",
+    "sources": [
+      {
+        "path": "src/empyrical/stats.py",
+        "url": "https://raw.githubusercontent.com/stefan-jansen/empyrical-reloaded/a54620df2077f56e8ef126d9b230b2ec2e1fadf6/src/empyrical/stats.py",
+        "file": "work/research-upgrade/empyrical/stats.py",
+        "sha256": "fd0b4e4dcce8b4ce891f58447294aae1a5b36d7522c4c07f207bb984e0ddb897"
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://raw.githubusercontent.com/stefan-jansen/empyrical-reloaded/a54620df2077f56e8ef126d9b230b2ec2e1fadf6/LICENSE",
+        "file": "work/research-upgrade/empyrical/LICENSE",
+        "sha256": "2b651c2d29c644d1c73417cd96e6cfa506d6de102ed96fc3de96d676e089cf29"
+      }
+    ]
+  }
+]

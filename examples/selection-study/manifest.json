@@ -1,0 +1,9 @@
+{
+  "files": {
+    "observations.csv": "12da4918321b38d670ee464aacf1a150adea76b64bc12ed7bccd45624a73128b",
+    "registration.json": "7c951ab052e8b7e45ec0d47672ab9aa225f2c9f0211087241a6d2e33419f4c16",
+    "results.json": "ed84e7cd28b5345be16780a4464e482ddbbd88651c02c3ff682233736223bddf"
+  },
+  "parent_plan_sha256": null,
+  "schema_version": 1
+}
