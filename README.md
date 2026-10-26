@@ -73,7 +73,7 @@ No strategy, including ridge, is assumed to beat the baseline. In the checked-in
 
 ![Chronal lifecycle: development, frozen selection, separate holdout and AI critique](docs/figures/research-lifecycle.svg)
 
-The [architecture guide](docs/ARCHITECTURE.md) and [timing figure](docs/figures/causal-timing.svg) trace the actual implementation. Figures are editable vectors produced through the PaperBanana-derived Flowcraft workflow, with rendered previews and source-to-element provenance.
+The [architecture guide](docs/ARCHITECTURE.md) and [timing figure](docs/figures/causal-timing.svg) trace the actual implementation. Figures are editable vectors with rendered previews and source-to-element provenance.
 
 ## Bring your own data
 
@@ -104,13 +104,9 @@ python -m chronal plan --data new-prices.csv --metadata metadata.json \
 
 The packet includes development evidence, stress results and the proposal fields. It excludes holdout prices and results. The importer rejects unknown fields, duplicate keys/names, nonfinite numbers, invalid types and excessive trial counts. Your assistant supplies hypotheses; deterministic code owns fitting, risk and accounting. See [AI workflow](docs/AI_WORKFLOW.md). No LLM is called by the package, and no autonomous language-model trading loop is claimed.
 
-## Why this particular system?
+## Design rationale
 
-The design followed implementation and license inspection across **32 repositories**, including FINOS Perspective, HoloViz Panel, Datasette, Gloomberb, Longbridge Terminal, a Bloomberg-inspired terminal, Backtrader, backtesting.py, ABIDES, TradingView Lightweight Charts, pyfolio, Fincept Terminal, OpenBB backend examples, RD-Agent, Hummingbot, QuantStats, Riskfolio-Lib, Empyrical-reloaded, cvxportfolio, TradingAgents, ai-hedge-fund, Qlib, LEAN, NautilusTrader, vectorbt, FinRL, Freqtrade, skfolio, PyPortfolioOpt, bt and InvestorBench. The [research record](docs/RESEARCH.md) links pinned code, tradeoffs and counterevidence.
-
-Chronal's advantage for this scope is a small, coherent path from hypothesis to auditable portfolio evidence. It makes data availability, model fit boundaries, fees, cash, selection and report provenance explicit in one free local workflow. Those mechanisms individually have strong precedents; no novelty or universal superiority is claimed.
-
-Choose Qlib for its larger model/data research ecosystem, skfolio or PyPortfolioOpt for richer optimization, Nautilus for order-level execution, LEAN for broad asset and brokerage reality models, Freqtrade for a crypto bot workflow, and TradingAgents for specialized language-model research roles. Chronal does not implement their entire scope or promise drop-in adapters.
+Chronal keeps data availability, model-fit boundaries, fees, cash, selection and report provenance explicit in one local workflow. The [research record](docs/RESEARCH.md) documents the source comparisons and tradeoffs behind that scope.
 
 ## Know the boundary
 
