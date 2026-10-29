@@ -115,7 +115,7 @@ Chronal keeps data availability, model-fit boundaries, fees, cash, selection and
 - Imported availability timestamps are declarations, not proof of historical publication or archived text. No download can automatically fix survivorship bias or historical model-training contamination.
 - Reported bootstrap ranges hold fitted paths fixed and are **not** corrected for strategy selection. Annualization assumes 252 sessions. Short paths and hand-designed synthetic markets do not support broad investment conclusions.
 
-See [mathematics and execution](docs/METHOD.md), [architecture and extension boundaries](docs/ARCHITECTURE.md), [verification evidence](docs/VALIDATION.md), [security](SECURITY.md) and [upstream notices](NOTICE.md).
+See [mathematics and execution](docs/METHOD.md), [architecture and extension boundaries](docs/ARCHITECTURE.md), [verification evidence](docs/VALIDATION.md), [security](SECURITY.md) and [licensing and data scope](LICENSE).
 
 ## Develop
 
