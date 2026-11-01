@@ -1,20 +1,34 @@
-![Chronal: evidence before exposure](docs/assets/terminal-cover.svg)
+# Chronal
 
-**A local investment research lab that turns a strategy hypothesis into a portfolio you can inspect and replay.**
+Build a local strategy experiment, inspect its simulated portfolio, and replay its evidence.
 
-Python 3.11+ · One runtime dependency · MIT · No accounts or API keys
-
-[![Checks](https://github.com/nazeeh111/chronal/actions/workflows/checks.yml/badge.svg)](https://github.com/nazeeh111/chronal/actions/workflows/checks.yml)
-
-[Source](https://github.com/nazeeh111/chronal) · [Checks](https://github.com/nazeeh111/chronal/actions/workflows/checks.yml) · [Verification record](docs/VALIDATION.md)
+[Run the demo](#try-the-complete-workflow) · [Open a saved report](examples/demo/development/report.html) · [Verification record](docs/VALIDATION.md) · [Source](https://github.com/nazeeh111/chronal)
 
 Chronal connects constrained strategy proposals, train-only machine learning, cash-aware simulation, chronological evaluation and standalone reports. Its useful unit is a complete experiment: the data, candidate registry, fitted models, selection decision, fills, costs and evidence all travel together.
 
 **Research software, version 0.1.0.** No live brokerage route. The bundled demonstration uses fictional prices. It does not establish an investable edge, historical LLM skill or superiority over mature trading engines.
 
-![CHRONAL focused execution evidence](docs/assets/asset-focus.png)
+![Chronal focused execution evidence](docs/assets/asset-focus.png)
 
 The [terminal source research](docs/research/TERMINAL.md) connects the interface to real research tasks: inspect a registered portfolio, navigate evidence, find an exact session and reconcile its account. The terminal is a saved, offline experiment with actual simulation data. It contains no live ticker feed or order route.
+
+## Try the complete workflow
+
+Python 3.11+, NumPy and a local browser are required. No account or API key is needed.
+
+From this repository directory:
+
+```sh
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -e .
+python -m chronal demo --out demo-run
+python -m chronal verify demo-run --replay
+```
+
+Open `demo-run/development/report.html`, then `demo-run/holdout/report.html` in your browser. Both are self-contained; all scripts, styles and data are inline. The installed `chronal` command is equivalent to `python -m chronal`. Use a fresh destination for each run; existing results are never silently overwritten.
+
+Already have NumPy? The source runs directly without installing Chronal. The [checked-in demonstration](examples/demo/development/report.html) and [holdout report](examples/demo/holdout/report.html) are available immediately, with their raw data and recipes. GitHub displays HTML source; download the repository and open the file to interact with it.
 
 ## Use the research terminal
 
@@ -36,22 +50,6 @@ Open a generated report and press `/` to focus the command bar. Use `help` or Co
 | `goto risk` | Inspect downside diagnostics and monthly net-return matrix |
 
 The frozen development selection stays visible while you inspect other candidates. Monthly cells distinguish missing months from actual zero returns. Click or tap the plot to inspect a session. Click a monthly return to compare its actual interval, or inspect a drawdown trough to jump to the matching account. These are descriptive inspections: the full-region metrics and frozen selection stay intact. Ledger filters combine asset, buy/sell side and the selected session, retaining signed share quantities and paginated results. Asset focus synchronizes the detailed tables while preserving portfolio totals. The execution finder searches actual requests by asset, outcome and reason, with direct session jumps. The model inspector shows the rule or recorded ridge fit behind that session; the execution inspector shows actual requested, constrained, filled and expired shares. [Terminal guide](docs/TERMINAL.md) · [Interaction research](docs/research/INTERACTIVE.md) · [Execution research](docs/research/NEXT.md) · [Terminal workflow research](docs/research/FINAL.md) · [Typed inspection research](docs/research/PUBLICATION.md).
-
-## Try the complete workflow
-
-From this repository directory:
-
-```sh
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install -e .
-python -m chronal demo --out demo-run
-python -m chronal verify demo-run --replay
-```
-
-Open `demo-run/development/report.html`, then `demo-run/holdout/report.html` in your browser. Both are self-contained; all scripts, styles and data are inline. The installed `chronal` command is equivalent to `python -m chronal`. Use a fresh destination for each run; existing results are never silently overwritten.
-
-Already have NumPy? The source runs directly without installing Chronal. The [checked-in demonstration](examples/demo/development/report.html) and [holdout report](examples/demo/holdout/report.html) are available immediately, with their raw data and recipes. GitHub displays HTML source; download the repository and open the file to interact with it.
 
 ## What you get
 
@@ -119,6 +117,8 @@ See [mathematics and execution](docs/METHOD.md), [architecture and extension bou
 
 ## Develop
 
+[![Checks](https://github.com/nazeeh111/chronal/actions/workflows/checks.yml/badge.svg)](https://github.com/nazeeh111/chronal/actions/workflows/checks.yml)
+
 ```sh
 python -m pip install -e '.[dev]'
 ruff check chronal tests tools
@@ -132,3 +132,5 @@ python -m build
 ```
 
 The CI workflow covers Python 3.11–3.14; local validation details are recorded separately. [Contributions](CONTRIBUTING.md) should improve the supported workflow and its evidence, with small independent accounting and chronology tests.
+
+[Identity artwork](docs/assets/terminal-cover.svg). [MIT license](LICENSE).
