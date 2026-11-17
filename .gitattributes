@@ -1,0 +1,12 @@
+# Preserve exact native CSV bytes bound by experiment manifests.
+docs/presentation/worked-run/development/equity.csv -text
+docs/presentation/worked-run/development/fills.csv -text
+docs/presentation/worked-run/holdout/equity.csv -text
+docs/presentation/worked-run/holdout/fills.csv -text
+docs/presentation/worked-run/input.csv -text
+examples/demo/development/equity.csv -text
+examples/demo/development/fills.csv -text
+examples/demo/holdout/equity.csv -text
+examples/demo/holdout/fills.csv -text
+examples/demo/input.csv -text
+examples/selection-study/observations.csv -text
