@@ -1,14 +1,16 @@
 # Chronal
 
-Build a local strategy experiment, inspect its simulated portfolio, and replay its evidence.
+**Freeze the choice. Account for the trade. Report the loss.** Chronal is a local portfolio-research tool that connects train-only models, chronological selection and cash-aware simulated execution to a portable offline terminal.
 
-[Run the demo](#try-the-complete-workflow) · [Open a saved report](examples/demo/development/report.html) · [Verification record](docs/VALIDATION.md) · [Source](https://github.com/nazeeh111/chronal)
+The worked fictional-price experiment chooses `trend60` from development evidence, then loses **1.461% on its separate holdout**. Its fills, commissions, constraints and frozen decision remain inspectable. A development winner is not a promise of profit.
 
-Chronal connects constrained strategy proposals, train-only machine learning, cash-aware simulation, chronological evaluation and standalone reports. Its useful unit is a complete experiment: the data, candidate registry, fitted models, selection decision, fills, costs and evidence all travel together.
+<picture><source media="(max-width: 600px)" srcset="docs/presentation/chronology-mobile.svg"><img src="docs/presentation/chronology.svg" alt="Actual train/development/holdout boundaries and complete net equity paths, followed by one reconciled simulated fill. The development winner loses money on its separate holdout." width="100%"></picture>
 
-**Research software, version 0.1.0.** No live brokerage route. The bundled demonstration uses fictional prices. It does not establish an investable edge, historical LLM skill or superiority over mature trading engines.
+[Follow the worked case](docs/presentation/README.md) · [Download its complete replay](docs/presentation/worked-example.zip) · [Open its saved report](docs/presentation/worked-run/holdout/report.html) · [Run a fresh experiment](#try-the-complete-workflow)
 
-![Chronal focused execution evidence](docs/assets/asset-focus.png)
+**Research software, version 0.1.0. Fictional prices and simulated trades only.** No live brokerage route, investable-edge claim, historical LLM skill or superiority over mature trading engines. Deep methods, the original negative study and existing expert terminal commands remain below.
+
+<img src="docs/presentation/constrained-terminal.png" alt="Actual offline Chronal terminal showing a shared-cash-limited simulated request, filled and expired fractional shares, and its recorded reason." width="100%">
 
 The [terminal source research](docs/research/TERMINAL.md) connects the interface to real research tasks: inspect a registered portfolio, navigate evidence, find an exact session and reconcile its account. The terminal is a saved, offline experiment with actual simulation data. It contains no live ticker feed or order route.
 
@@ -28,7 +30,7 @@ python -m chronal verify demo-run --replay
 
 Open `demo-run/development/report.html`, then `demo-run/holdout/report.html` in your browser. Both are self-contained; all scripts, styles and data are inline. The installed `chronal` command is equivalent to `python -m chronal`. Use a fresh destination for each run; existing results are never silently overwritten.
 
-Already have NumPy? The source runs directly without installing Chronal. The [checked-in demonstration](examples/demo/development/report.html) and [holdout report](examples/demo/holdout/report.html) are available immediately, with their raw data and recipes. GitHub displays HTML source; download the repository and open the file to interact with it.
+Already have NumPy? The source runs directly without installing Chronal. The [checked-in demonstration](examples/demo/development/report.html) and [holdout report](examples/demo/holdout/report.html) are available immediately, with their raw data and recipes. GitHub displays HTML source; download the repository and open the file to interact with it. The historical demo predates the current package-source fingerprint, so strict current-code replay refuses it. Use the [current-source worked run](docs/presentation/README.md#why-this-new-packet-exists) for a verified replay; the historical bytes remain preserved.
 
 ## Use the research terminal
 

@@ -1,0 +1,25 @@
+{
+  "desktop": [
+    1440,
+    1050
+  ],
+  "mobile": {
+    "width": 375,
+    "isMobile": true,
+    "layout": 375,
+    "noOverflow": true
+  },
+  "actualOfflineReports": true,
+  "ridgeFitInspector": true,
+  "selectedSessionAccount": true,
+  "downloadedCSVByteExact": true,
+  "keyboardSlider": {
+    "before": "1",
+    "after": "2"
+  },
+  "invalidStrategyPreservesSelection": true,
+  "helpEscape": true,
+  "freshReportReopen": true,
+  "externalRequests": [],
+  "errors": []
+}
