@@ -1,12 +1,14 @@
 # Chronal
 
-**Freeze the choice. Account for the trade. Report the loss.** Chronal is a local portfolio-research tool that connects train-only models, chronological selection and cash-aware simulated execution to a portable offline terminal.
+Chronal is a local research tool for chronological portfolio selection and cash-aware simulated execution.
 
 The worked fictional-price experiment chooses `trend60` from development evidence, then loses **1.461% on its separate holdout**. Its fills, commissions, constraints and frozen decision remain inspectable. A development winner is not a promise of profit.
 
+[Read the worked case](https://nazeeh111.github.io/work/chronal/) · [Open the interactive holdout](https://nazeeh111.github.io/assets/featured/chronal/report.html)
+
 <picture><source media="(max-width: 600px)" srcset="docs/presentation/chronology-mobile.svg"><img src="docs/presentation/chronology.svg" alt="Actual train/development/holdout boundaries and complete net equity paths, followed by one reconciled simulated fill. The development winner loses money on its separate holdout." width="100%"></picture>
 
-[Read the worked case](https://nazeeh111.github.io/work/chronal/) · [Open the interactive holdout](https://nazeeh111.github.io/assets/featured/chronal/report.html) · [Download the complete replay ZIP](https://raw.githubusercontent.com/nazeeh111/chronal/f2cec5dfc41cfdb321f08c621d7303f3de828b1f/docs/presentation/worked-example.zip) · [Run a fresh experiment](#try-the-complete-workflow)
+[Download the complete replay ZIP](https://raw.githubusercontent.com/nazeeh111/chronal/f2cec5dfc41cfdb321f08c621d7303f3de828b1f/docs/presentation/worked-example.zip) · [Run a fresh experiment](#try-the-complete-workflow)
 
 **Research software, version 0.1.0. Fictional prices and simulated trades only.** No live brokerage route, investable-edge claim, historical LLM skill or superiority over mature trading engines. Deep methods, the original negative study and existing expert terminal commands remain below.
 
@@ -28,7 +30,7 @@ python -m chronal demo --out demo-run
 python -m chronal verify demo-run --replay
 ```
 
-Open `demo-run/development/report.html`, then `demo-run/holdout/report.html` in your browser. Both are self-contained; all scripts, styles and data are inline. The installed `chronal` command is equivalent to `python -m chronal`. Use a fresh destination for each run; existing results are never silently overwritten.
+Open `demo-run/development/report.html`, then `demo-run/holdout/report.html` in your browser. Both are self-contained; all scripts, styles and data are inline. Each report opens with its frozen candidate and region outcome. Choose **Inspect the first simulated fill** to jump to that session in the ledger; the button also works from the keyboard. Development selected the candidate; the separate holdout evaluates that choice without selecting again. The installed `chronal` command is equivalent to `python -m chronal`. Use a fresh destination for each run; existing results are never silently overwritten.
 
 Already have NumPy? The source runs directly without installing Chronal. The [checked-in demonstration](examples/demo/development/report.html) and [holdout report](examples/demo/holdout/report.html) are available immediately, with their raw data and recipes. GitHub displays HTML source; download the repository and open the file to interact with it. The historical demo predates the current package-source fingerprint, so strict current-code replay refuses it. Use the [current-source worked run](docs/presentation/README.md#why-this-new-packet-exists) for a verified replay; the historical bytes remain preserved. To open the current saved holdout locally, use [`docs/presentation/worked-run/holdout/report.html`](docs/presentation/worked-run/holdout/report.html) in your downloaded copy.
 
