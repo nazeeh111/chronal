@@ -4,7 +4,7 @@ Chronal is a local research tool for chronological portfolio selection and cash-
 
 The worked fictional-price experiment chooses `trend60` from development evidence, then loses **1.461% on its separate holdout**. Its fills, commissions, constraints and frozen decision remain inspectable. A development winner is not a promise of profit.
 
-[Read the worked case](https://nazeeh111.github.io/work/chronal/) · [Open the interactive holdout](https://nazeeh111.github.io/assets/featured/chronal/report.html)
+[Read the worked case](https://nazeeh111.github.io/work/chronal/) · [Inspect the first simulated fill](https://nazeeh111.github.io/assets/featured/chronal/review.html)
 
 <picture><source media="(max-width: 600px)" srcset="docs/presentation/chronology-mobile.svg"><img src="docs/presentation/chronology.svg" alt="Actual train/development/holdout boundaries and complete net equity paths, followed by one reconciled simulated fill. The development winner loses money on its separate holdout." width="100%"></picture>
 
